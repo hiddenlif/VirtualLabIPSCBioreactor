@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "verified_at": "2026-10-24 14:26 PDT",
+  "checks": [
+    {
+      "command": [
+        "/usr/local/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "output": "reports/verification-final-tests.txt"
+    },
+    {
+      "command": [
+        "/usr/local/bin/python3",
+        "scripts/verify_results.py"
+      ],
+      "exit_code": 0,
+      "output": "reports/verification-final-artifacts.json"
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "web/app.js"
+      ],
+      "exit_code": 0,
+      "output": "reports/verification-javascript.txt"
+    }
+  ],
+  "browser_exports": {
+    "dossier_matches_api": true,
+    "sample_rows": 2,
+    "all_csv_fields_match_dossier": true,
+    "dossier": "reports/browser-dossier.json",
+    "csv": "reports/browser-samples.csv"
+  },
+  "responsive_layout": {
+    "width_px": 390,
+    "campaign_document_width_px": 390,
+    "study_document_width_px": 390,
+    "viewport_override_reset": true
+  },
+  "screenshots": [
+    "reports/campaign-screen.png",
+    "reports/mobile-campaign-screen.png",
+    "reports/evaluation-screen.png"
+  ],
+  "reproduction": "reports/reproduction-v1/RESULT.json"
+}

@@ -1,0 +1,6 @@
+[
+ {"id":"A","commands":[{"type":"sample","panel":"metabolic"}],"advance_h":2,"evidence":["S-006"],"rationale":"Collect current independent pH, viability and metabolites before the final culture interval. Earlier sensor history still precludes acceptance."},
+ {"id":"B","commands":[{"type":"sample","panel":"metabolic"}],"advance_h":2,"evidence":["S-007"],"rationale":"Check whether the higher dilution setting has controlled lactate while preserving viability; do not use the old sample as endpoint evidence."},
+ {"id":"C","commands":[{"type":"sample","panel":"metabolic"}],"advance_h":2,"evidence":["S-005"],"rationale":"Update the current metabolic state after twenty hours and plan the qualifying banking samples after the 114 h checkpoint."},
+ {"id":"D","commands":[{"type":"sample","panel":"metabolic"}],"advance_h":2,"evidence":["S-006"],"rationale":"Oxygen has declined to about 34% while remaining above the simulation excursion threshold. Check current viability and metabolism; maximum permitted perfusion does not establish adequate quality or unlimited oxygen-transfer capacity."}
+]

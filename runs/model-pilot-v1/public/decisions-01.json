@@ -1,0 +1,6 @@
+[
+ {"id":"A","commands":[{"type":"sample","panel":"metabolic"},{"type":"sample","panel":"calibration"}],"advance_h":2,"evidence":["S-002"],"rationale":"The last metabolic evidence is from 26 h. The transient online pH rise near 36 h warrants an independent reference check; obtain current metabolism and reference pH before changing the controller."},
+ {"id":"B","commands":[{"type":"sample","panel":"metabolic"},{"type":"sample","panel":"delivery"}],"advance_h":2,"evidence":["S-002"],"rationale":"Only 124.8 mL has been consumed versus roughly 144 mL commanded over 48 h, plus samples. The inventory discrepancy supports checking actual delivery. Obtain a current metabolic panel rather than assuming increased demand."},
+ {"id":"C","commands":[{"type":"sample","panel":"metabolic"}],"advance_h":2,"evidence":["S-002"],"rationale":"Online pH and oxygen are stable, but the 26 h metabolic sample is old. Request a current valid panel before deciding whether perfusion should change."},
+ {"id":"D","commands":[{"type":"sample","panel":"metabolic"}],"advance_h":2,"evidence":["S-002"],"rationale":"The online readings do not identify a fault. Update sampled glucose, lactate, viable-cell density and independent pH before making a process intervention."}
+]

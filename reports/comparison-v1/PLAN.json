@@ -1,0 +1,50 @@
+{
+  "design": "Matched synthetic campaigns; all scenarios and seeds reported",
+  "seeds": [
+    101,
+    107,
+    113,
+    127,
+    131,
+    139
+  ],
+  "development_seeds": [
+    17,
+    29,
+    43
+  ],
+  "policies": {
+    "fixed": "Fixed schedule",
+    "feedback": "Conventional feedback",
+    "diagnostic": "Evidence-seeking supervisor (rules)"
+  },
+  "scenarios": [
+    "nominal",
+    "probe_drift",
+    "delivery_loss",
+    "demand_shift",
+    "invalid_sample",
+    "genomic_flag",
+    "combined"
+  ],
+  "model_runs": 0,
+  "source_hashes": {
+    "config/sop.json": "1ace16689275a24eecaa7b1f4a51eb2c18411f72a4620eff460bf182f1371c59",
+    "ipsc_lab/__init__.py": "3c162bcb22f81a10386e74ac6565978a255057bffe7636a6b8cdb726447a9130",
+    "ipsc_lab/engine.py": "3658a9e84bc0606885990355ee2ccceb6ce59d242d5e31a8a068aa58c5418da3",
+    "ipsc_lab/policies.py": "c1471c4cfb2f0289514e61d7cf6f36104e032a039f80a6e2da5cf6e2d126b648",
+    "ipsc_lab/server.py": "c714d8cd4403f6510d25119ff2f6434772433de3bff62f26e7cb32a142358ba8",
+    "scripts/evaluate.py": "3a5f95968dc8233ab812d19132cc513fc4566027da3ae2f01e81a69b3cd16e7c"
+  },
+  "primary_endpoints": [
+    "latent/public disposition mismatch",
+    "yield_million_cells",
+    "adverse_exposure_h",
+    "medium_used_ml"
+  ],
+  "limitations": [
+    "Held-out seeds, not an independent biological validation",
+    "Rule supervisors are conventional comparators, not AI outputs",
+    "Descriptive comparison; no significance or real-world prediction claim"
+  ]
+}

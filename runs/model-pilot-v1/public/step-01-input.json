@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "A",
+    "input_sha256": "7d0bc8ceb63dabd217a1679cc67b248bcafea82573ee88751a90c240708481f9",
+    "observation": {
+      "batch": "PILOT-A",
+      "time_h": 48.0,
+      "process_end_h": 120,
+      "sop": "SIM-EXP-001 v1.0.0",
+      "evidence_layer": "synthetic research simulation",
+      "resources": {
+        "medium_used_ml": 145.2,
+        "medium_remaining_ml": 1854.8,
+        "sample_used_ml": 1.2,
+        "sample_remaining_ml": 16.8
+      },
+      "settings": {
+        "perfusion_ml_h": 3.0,
+        "volume_ml": 150
+      },
+      "assessment": {
+        "decision": "hold",
+        "reasons": [
+          "Process not complete",
+          "Missing qualifying evidence: identity, phenotype, viability, genomic_screen, microbial_screen"
+        ],
+        "evidence_ids": [],
+        "missing": [
+          "identity",
+          "phenotype",
+          "viability",
+          "genomic_screen",
+          "microbial_screen"
+        ],
+        "history_issues": [],
+        "scope": "Simulated banking recommendation only"
+      },
+      "telemetry": [
+        {
+          "time_h": 36.0,
+          "ph": 7.1315,
+          "do_pct": 40.412,
+          "temperature_c": 37.013,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 37.0,
+          "ph": 7.0839,
+          "do_pct": 39.687,
+          "temperature_c": 37.003,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 38.0,
+          "ph": 7.0587,
+          "do_pct": 40.402,
+          "temperature_c": 37.003,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 39.0,
+          "ph": 7.0586,
+          "do_pct": 39.883,
+          "temperature_c": 36.985,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 40.0,
+          "ph": 7.0538,
+          "do_pct": 39.824,
+          "temperature_c": 36.965,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 41.0,
+          "ph": 7.0534,
+          "do_pct": 40.314,
+          "temperature_c": 36.993,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 42.0,
+          "ph": 7.0377,
+          "do_pct": 39.327,
+          "temperature_c": 37.024,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 43.0,
+          "ph": 7.0529,
+          "do_pct": 40.036,
+          "temperature_c": 36.995,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 44.0,
+          "ph": 7.0494,
+          "do_pct": 40.543,
+          "temperature_c": 37.001,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 45.0,
+          "ph": 7.039,
+          "do_pct": 39.676,
+          "temperature_c": 36.967,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 46.0,
+          "ph": 7.0389,
+          "do_pct": 39.514,
+          "temperature_c": 36.993,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 47.0,
+          "ph": 7.036,
+          "do_pct": 39.833,
+          "temperature_c": 37.043,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 48.0,
+          "ph": 7.0391,
+          "do_pct": 39.534,
+          "temperature_c": 36.94,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        }
+      ],
+      "samples": [
+        {
+          "id": "S-001",
+          "batch": "PILOT-A",
+          "assay": "metabolic",
+          "assay_label": "Metabolic panel",
+          "version": "1.0",
+          "collected_h": 2.0,
+          "result_h": 4.0,
+          "volume_ml": 0.6,
+          "status": "complete",
+          "evidence_layer": "simulated sampled result",
+          "values": {
+            "glucose_g_l": 5.95,
+            "lactate_g_l": 0.2023,
+            "viable_cell_density_m_ml": 0.507,
+            "viability": 0.9732,
+            "ph_independent": 7.0594,
+            "aggregate_diameter_um": 100.5
+          },
+          "valid": true
+        },
+        {
+          "id": "S-002",
+          "batch": "PILOT-A",
+          "assay": "metabolic",
+          "assay_label": "Metabolic panel",
+          "version": "1.0",
+          "collected_h": 26.0,
+          "result_h": 28.0,
+          "volume_ml": 0.6,
+          "status": "complete",
+          "evidence_layer": "simulated sampled result",
+          "values": {
+            "glucose_g_l": 5.5649,
+            "lactate_g_l": 0.6853,
+            "viable_cell_density_m_ml": 0.7836,
+            "viability": 0.9721,
+            "ph_independent": 7.0414,
+            "aggregate_diameter_um": 116.2
+          },
+          "valid": true
+        }
+      ],
+      "events": [
+        {
+          "id": "EV-0001",
+          "time_h": 0.0,
+          "kind": "campaign",
+          "title": "Campaign inoculated",
+          "detail": "Synthetic initial condition; 150 mL vessel."
+        },
+        {
+          "id": "EV-0002",
+          "time_h": 2.0,
+          "kind": "sample",
+          "title": "Metabolic panel collected",
+          "detail": "0.6 mL; result due at 4 h",
+          "evidence": [
+            "S-001"
+          ]
+        },
+        {
+          "id": "EV-0003",
+          "time_h": 4.0,
+          "kind": "result",
+          "title": "Metabolic panel result available",
+          "detail": "Valid",
+          "evidence": [
+            "S-001"
+          ]
+        },
+        {
+          "id": "EV-0004",
+          "time_h": 26.0,
+          "kind": "sample",
+          "title": "Metabolic panel collected",
+          "detail": "0.6 mL; result due at 28 h",
+          "evidence": [
+            "S-002"
+          ]
+        },
+        {
+          "id": "EV-0005",
+          "time_h": 28.0,
+          "kind": "result",
+          "title": "Metabolic panel result available",
+          "detail": "Valid",
+          "evidence": [
+            "S-002"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "B",
+    "input_sha256": "12df52c49a788ebe1041befd69749cb723403390624ba6885b89a5d01966f0b0",
+    "observation": {
+      "batch": "PILOT-B",
+      "time_h": 48.0,
+      "process_end_h": 120,
+      "sop": "SIM-EXP-001 v1.0.0",
+      "evidence_layer": "synthetic research simulation",
+      "resources": {
+        "medium_used_ml": 124.8,
+        "medium_remaining_ml": 1875.2,
+        "sample_used_ml": 1.2,
+        "sample_remaining_ml": 16.8
+      },
+      "settings": {
+        "perfusion_ml_h": 3.0,
+        "volume_ml": 150
+      },
+      "assessment": {
+        "decision": "hold",
+        "reasons": [
+          "Process not complete",
+          "Missing qualifying evidence: identity, phenotype, viability, genomic_screen, microbial_screen"
+        ],
+        "evidence_ids": [],
+        "missing": [
+          "identity",
+          "phenotype",
+          "viability",
+          "genomic_screen",
+          "microbial_screen"
+        ],
+        "history_issues": [],
+        "scope": "Simulated banking recommendation only"
+      },
+      "telemetry": [
+        {
+          "time_h": 36.0,
+          "ph": 7.0349,
+          "do_pct": 40.342,
+          "temperature_c": 36.996,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 37.0,
+          "ph": 7.0468,
+          "do_pct": 40.639,
+          "temperature_c": 37.011,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 38.0,
+          "ph": 7.046,
+          "do_pct": 40.122,
+          "temperature_c": 37.023,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 39.0,
+          "ph": 7.0536,
+          "do_pct": 39.659,
+          "temperature_c": 36.979,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 40.0,
+          "ph": 7.0549,
+          "do_pct": 40.303,
+          "temperature_c": 36.987,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 41.0,
+          "ph": 7.0512,
+          "do_pct": 39.901,
+          "temperature_c": 36.974,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 42.0,
+          "ph": 7.0509,
+          "do_pct": 40.295,
+          "temperature_c": 37.04,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 43.0,
+          "ph": 7.046,
+          "do_pct": 39.674,
+          "temperature_c": 36.999,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 44.0,
+          "ph": 7.0453,
+          "do_pct": 40.377,
+          "temperature_c": 37.003,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 45.0,
+          "ph": 7.0492,
+          "do_pct": 39.396,
+          "temperature_c": 36.959,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 46.0,
+          "ph": 7.0529,
+          "do_pct": 39.637,
+          "temperature_c": 36.975,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 47.0,
+          "ph": 7.0528,
+          "do_pct": 40.201,
+          "temperature_c": 36.949,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 48.0,
+          "ph": 7.0387,
+          "do_pct": 40.589,
+          "temperature_c": 37.004,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        }
+      ],
+      "samples": [
+        {
+          "id": "S-001",
+          "batch": "PILOT-B",
+          "assay": "metabolic",
+          "assay_label": "Metabolic panel",
+          "version": "1.0",
+          "collected_h": 2.0,
+          "result_h": 4.0,
+          "volume_ml": 0.6,
+          "status": "complete",
+          "evidence_layer": "simulated sampled result",
+          "values": {
+            "glucose_g_l": 6.0011,
+            "lactate_g_l": 0.1632,
+            "viable_cell_density_m_ml": 0.5066,
+            "viability": 0.9732,
+            "ph_independent": 7.0332,
+            "aggregate_diameter_um": 100.4
+          },
+          "valid": true
+        },
+        {
+          "id": "S-002",
+          "batch": "PILOT-B",
+          "assay": "metabolic",
+          "assay_label": "Metabolic panel",
+          "version": "1.0",
+          "collected_h": 26.0,
+          "result_h": 28.0,
+          "volume_ml": 0.6,
+          "status": "complete",
+          "evidence_layer": "simulated sampled result",
+          "values": {
+            "glucose_g_l": 5.6039,
+            "lactate_g_l": 0.6857,
+            "viable_cell_density_m_ml": 0.7667,
+            "viability": 0.9716,
+            "ph_independent": 7.0394,
+            "aggregate_diameter_um": 115.3
+          },
+          "valid": true
+        }
+      ],
+      "events": [
+        {
+          "id": "EV-0001",
+          "time_h": 0.0,
+          "kind": "campaign",
+          "title": "Campaign inoculated",
+          "detail": "Synthetic initial condition; 150 mL vessel."
+        },
+        {
+          "id": "EV-0002",
+          "time_h": 2.0,
+          "kind": "sample",
+          "title": "Metabolic panel collected",
+          "detail": "0.6 mL; result due at 4 h",
+          "evidence": [
+            "S-001"
+          ]
+        },
+        {
+          "id": "EV-0003",
+          "time_h": 4.0,
+          "kind": "result",
+          "title": "Metabolic panel result available",
+          "detail": "Valid",
+          "evidence": [
+            "S-001"
+          ]
+        },
+        {
+          "id": "EV-0004",
+          "time_h": 26.0,
+          "kind": "sample",
+          "title": "Metabolic panel collected",
+          "detail": "0.6 mL; result due at 28 h",
+          "evidence": [
+            "S-002"
+          ]
+        },
+        {
+          "id": "EV-0005",
+          "time_h": 28.0,
+          "kind": "result",
+          "title": "Metabolic panel result available",
+          "detail": "Valid",
+          "evidence": [
+            "S-002"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "C",
+    "input_sha256": "df0cf4d99f7b566c8d03a22bf4ca59d082898e9b88e219555d6c9a46f523a6e6",
+    "observation": {
+      "batch": "PILOT-C",
+      "time_h": 48.0,
+      "process_end_h": 120,
+      "sop": "SIM-EXP-001 v1.0.0",
+      "evidence_layer": "synthetic research simulation",
+      "resources": {
+        "medium_used_ml": 145.2,
+        "medium_remaining_ml": 1854.8,
+        "sample_used_ml": 1.2,
+        "sample_remaining_ml": 16.8
+      },
+      "settings": {
+        "perfusion_ml_h": 3.0,
+        "volume_ml": 150
+      },
+      "assessment": {
+        "decision": "hold",
+        "reasons": [
+          "Process not complete",
+          "Missing qualifying evidence: identity, phenotype, viability, genomic_screen, microbial_screen"
+        ],
+        "evidence_ids": [],
+        "missing": [
+          "identity",
+          "phenotype",
+          "viability",
+          "genomic_screen",
+          "microbial_screen"
+        ],
+        "history_issues": [],
+        "scope": "Simulated banking recommendation only"
+      },
+      "telemetry": [
+        {
+          "time_h": 36.0,
+          "ph": 7.0438,
+          "do_pct": 40.026,
+          "temperature_c": 36.964,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 37.0,
+          "ph": 7.0371,
+          "do_pct": 40.229,
+          "temperature_c": 37.048,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 38.0,
+          "ph": 7.0438,
+          "do_pct": 39.836,
+          "temperature_c": 37.017,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 39.0,
+          "ph": 7.0416,
+          "do_pct": 40.128,
+          "temperature_c": 36.96,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 40.0,
+          "ph": 7.0603,
+          "do_pct": 39.813,
+          "temperature_c": 37.054,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 41.0,
+          "ph": 7.0503,
+          "do_pct": 39.63,
+          "temperature_c": 36.972,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 42.0,
+          "ph": 7.0338,
+          "do_pct": 39.724,
+          "temperature_c": 36.973,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 43.0,
+          "ph": 7.0478,
+          "do_pct": 40.384,
+          "temperature_c": 36.971,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 44.0,
+          "ph": 7.0581,
+          "do_pct": 40.355,
+          "temperature_c": 37.024,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 45.0,
+          "ph": 7.0376,
+          "do_pct": 40.035,
+          "temperature_c": 37.024,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 46.0,
+          "ph": 7.0412,
+          "do_pct": 39.708,
+          "temperature_c": 36.959,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 47.0,
+          "ph": 7.0418,
+          "do_pct": 40.286,
+          "temperature_c": 36.988,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 48.0,
+          "ph": 7.0386,
+          "do_pct": 40.046,
+          "temperature_c": 37.001,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        }
+      ],
+      "samples": [
+        {
+          "id": "S-001",
+          "batch": "PILOT-C",
+          "assay": "metabolic",
+          "assay_label": "Metabolic panel",
+          "version": "1.0",
+          "collected_h": 2.0,
+          "result_h": 4.0,
+          "volume_ml": 0.6,
+          "status": "complete",
+          "evidence_layer": "simulated sampled result",
+          "values": {
+            "glucose_g_l": 5.9981,
+            "lactate_g_l": 0.1301,
+            "viable_cell_density_m_ml": 0.5067,
+            "viability": 0.9732,
+            "ph_independent": 7.0343,
+            "aggregate_diameter_um": 100.4
+          },
+          "valid": true
+        },
+        {
+          "id": "S-002",
+          "batch": "PILOT-C",
+          "assay": "metabolic",
+          "assay_label": "Metabolic panel",
+          "version": "1.0",
+          "collected_h": 26.0,
+          "result_h": 28.0,
+          "volume_ml": 0.6,
+          "status": "complete",
+          "evidence_layer": "simulated sampled result",
+          "values": {
+            "glucose_g_l": 5.5759,
+            "lactate_g_l": 0.6056,
+            "viable_cell_density_m_ml": 0.7694,
+            "viability": 0.9717,
+            "ph_independent": 7.0491,
+            "aggregate_diameter_um": 115.5
+          },
+          "valid": true
+        }
+      ],
+      "events": [
+        {
+          "id": "EV-0001",
+          "time_h": 0.0,
+          "kind": "campaign",
+          "title": "Campaign inoculated",
+          "detail": "Synthetic initial condition; 150 mL vessel."
+        },
+        {
+          "id": "EV-0002",
+          "time_h": 2.0,
+          "kind": "sample",
+          "title": "Metabolic panel collected",
+          "detail": "0.6 mL; result due at 4 h",
+          "evidence": [
+            "S-001"
+          ]
+        },
+        {
+          "id": "EV-0003",
+          "time_h": 4.0,
+          "kind": "result",
+          "title": "Metabolic panel result available",
+          "detail": "Valid",
+          "evidence": [
+            "S-001"
+          ]
+        },
+        {
+          "id": "EV-0004",
+          "time_h": 26.0,
+          "kind": "sample",
+          "title": "Metabolic panel collected",
+          "detail": "0.6 mL; result due at 28 h",
+          "evidence": [
+            "S-002"
+          ]
+        },
+        {
+          "id": "EV-0005",
+          "time_h": 28.0,
+          "kind": "result",
+          "title": "Metabolic panel result available",
+          "detail": "Valid",
+          "evidence": [
+            "S-002"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "D",
+    "input_sha256": "2fd5f4ec91876fde6343ae900ad643ce18c10966d23cb50fcbca8a932257c4c3",
+    "observation": {
+      "batch": "PILOT-D",
+      "time_h": 48.0,
+      "process_end_h": 120,
+      "sop": "SIM-EXP-001 v1.0.0",
+      "evidence_layer": "synthetic research simulation",
+      "resources": {
+        "medium_used_ml": 145.2,
+        "medium_remaining_ml": 1854.8,
+        "sample_used_ml": 1.2,
+        "sample_remaining_ml": 16.8
+      },
+      "settings": {
+        "perfusion_ml_h": 3.0,
+        "volume_ml": 150
+      },
+      "assessment": {
+        "decision": "hold",
+        "reasons": [
+          "Process not complete",
+          "Missing qualifying evidence: identity, phenotype, viability, genomic_screen, microbial_screen"
+        ],
+        "evidence_ids": [],
+        "missing": [
+          "identity",
+          "phenotype",
+          "viability",
+          "genomic_screen",
+          "microbial_screen"
+        ],
+        "history_issues": [],
+        "scope": "Simulated banking recommendation only"
+      },
+      "telemetry": [
+        {
+          "time_h": 36.0,
+          "ph": 7.0529,
+          "do_pct": 40.19,
+          "temperature_c": 36.978,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 37.0,
+          "ph": 7.0481,
+          "do_pct": 39.928,
+          "temperature_c": 36.97,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 38.0,
+          "ph": 7.0478,
+          "do_pct": 39.443,
+          "temperature_c": 37.016,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 39.0,
+          "ph": 7.0479,
+          "do_pct": 39.719,
+          "temperature_c": 37.027,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 40.0,
+          "ph": 7.0443,
+          "do_pct": 39.796,
+          "temperature_c": 36.987,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 41.0,
+          "ph": 7.0388,
+          "do_pct": 39.922,
+          "temperature_c": 37.001,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 42.0,
+          "ph": 7.0493,
+          "do_pct": 39.928,
+          "temperature_c": 36.986,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 43.0,
+          "ph": 7.0315,
+          "do_pct": 39.756,
+          "temperature_c": 37.011,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 44.0,
+          "ph": 7.0519,
+          "do_pct": 39.814,
+          "temperature_c": 36.985,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 45.0,
+          "ph": 7.0392,
+          "do_pct": 40.225,
+          "temperature_c": 37.024,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 46.0,
+          "ph": 7.0411,
+          "do_pct": 40.14,
+          "temperature_c": 37.0,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 47.0,
+          "ph": 7.0557,
+          "do_pct": 40.032,
+          "temperature_c": 36.984,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        },
+        {
+          "time_h": 48.0,
+          "ph": 7.0313,
+          "do_pct": 39.007,
+          "temperature_c": 37.023,
+          "perfusion_command_ml_h": 3.0,
+          "sensor_status": "scheduled calibration recorded",
+          "evidence_layer": "simulated online measurement"
+        }
+      ],
+      "samples": [
+        {
+          "id": "S-001",
+          "batch": "PILOT-D",
+          "assay": "metabolic",
+          "assay_label": "Metabolic panel",
+          "version": "1.0",
+          "collected_h": 2.0,
+          "result_h": 4.0,
+          "volume_ml": 0.6,
+          "status": "complete",
+          "evidence_layer": "simulated sampled result",
+          "values": {
+            "glucose_g_l": 5.9975,
+            "lactate_g_l": 0.1695,
+            "viable_cell_density_m_ml": 0.507,
+            "viability": 0.9732,
+            "ph_independent": 7.0221,
+            "aggregate_diameter_um": 100.5
+          },
+          "valid": true
+        },
+        {
+          "id": "S-002",
+          "batch": "PILOT-D",
+          "assay": "metabolic",
+          "assay_label": "Metabolic panel",
+          "version": "1.0",
+          "collected_h": 26.0,
+          "result_h": 28.0,
+          "volume_ml": 0.6,
+          "status": "complete",
+          "evidence_layer": "simulated sampled result",
+          "values": {
+            "glucose_g_l": 5.722,
+            "lactate_g_l": 0.5447,
+            "viable_cell_density_m_ml": 0.7847,
+            "viability": 0.9721,
+            "ph_independent": 7.0357,
+            "aggregate_diameter_um": 116.2
+          },
+          "valid": true
+        }
+      ],
+      "events": [
+        {
+          "id": "EV-0001",
+          "time_h": 0.0,
+          "kind": "campaign",
+          "title": "Campaign inoculated",
+          "detail": "Synthetic initial condition; 150 mL vessel."
+        },
+        {
+          "id": "EV-0002",
+          "time_h": 2.0,
+          "kind": "sample",
+          "title": "Metabolic panel collected",
+          "detail": "0.6 mL; result due at 4 h",
+          "evidence": [
+            "S-001"
+          ]
+        },
+        {
+          "id": "EV-0003",
+          "time_h": 4.0,
+          "kind": "result",
+          "title": "Metabolic panel result available",
+          "detail": "Valid",
+          "evidence": [
+            "S-001"
+          ]
+        },
+        {
+          "id": "EV-0004",
+          "time_h": 26.0,
+          "kind": "sample",
+          "title": "Metabolic panel collected",
+          "detail": "0.6 mL; result due at 28 h",
+          "evidence": [
+            "S-002"
+          ]
+        },
+        {
+          "id": "EV-0005",
+          "time_h": 28.0,
+          "kind": "result",
+          "title": "Metabolic panel result available",
+          "detail": "Valid",
+          "evidence": [
+            "S-002"
+          ]
+        }
+      ]
+    }
+  }
+]

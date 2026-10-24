@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "comparator_campaigns": 126,
+  "pilot_episodes": 4,
+  "actual_model_decisions": 44,
+  "scientific_sources_match": true,
+  "dossiers_and_aggregates_match": true,
+  "always_hold_eligible_campaigns_withheld": {
+    "fixed": 10,
+    "feedback": 23,
+    "diagnostic": 23
+  },
+  "scope": "Artifact integrity and numerical reproduction of retained summaries; no new model calls"
+}

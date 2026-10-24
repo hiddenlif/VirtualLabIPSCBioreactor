@@ -1,0 +1,60 @@
+[
+  {
+    "id": "A",
+    "commands": [
+      {
+        "type": "set_perfusion",
+        "value": 10
+      }
+    ],
+    "advance_h": 20,
+    "evidence": [
+      "S-006"
+    ],
+    "rationale": "The recovering culture has grown to 1.9188 million viable cells/mL and lactate continues to rise. Increase dilution to 10 mL/h within the remaining medium budget, preserving the earlier history hold."
+  },
+  {
+    "id": "B",
+    "commands": [
+      {
+        "type": "set_perfusion",
+        "value": 10
+      }
+    ],
+    "advance_h": 20,
+    "evidence": [
+      "S-005",
+      "S-007"
+    ],
+    "rationale": "Verified delivery is restored. Growth to 1.985 million cells/mL and rising lactate justify a higher perfusion setting rather than another equipment intervention."
+  },
+  {
+    "id": "C",
+    "commands": [
+      {
+        "type": "set_perfusion",
+        "value": 10
+      }
+    ],
+    "advance_h": 20,
+    "evidence": [
+      "S-005"
+    ],
+    "rationale": "Lactate is approaching 2 g/L as biomass rises. Increase dilution to 10 mL/h; the ample medium budget supports this action, though its cost must be reported."
+  },
+  {
+    "id": "D",
+    "commands": [
+      {
+        "type": "set_perfusion",
+        "value": 12
+      }
+    ],
+    "advance_h": 20,
+    "evidence": [
+      "S-004",
+      "S-006"
+    ],
+    "rationale": "Despite normal delivery and increased perfusion, lactate is 2.4749 g/L and viability is declining. Use the permitted 12 mL/h maximum, reassess at 96 h, and do not infer phenotype or genomic quality from metabolism."
+  }
+]

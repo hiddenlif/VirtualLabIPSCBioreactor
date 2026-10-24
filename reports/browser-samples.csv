@@ -1,0 +1,3 @@
+sample,assay,collected_h,result_h,status,valid,values
+"S-001","metabolic","2","4","complete","true","{""glucose_g_l"":6.0052,""lactate_g_l"":0.1421,""viable_cell_density_m_ml"":0.5069,""viability"":0.9732,""ph_independent"":7.0521,""aggregate_diameter_um"":100.5}"
+"S-002","metabolic","26","28","complete","true","{""glucose_g_l"":5.6268,""lactate_g_l"":0.6952,""viable_cell_density_m_ml"":0.7795,""viability"":0.972,""ph_independent"":7.0379,""aggregate_diameter_um"":116}"

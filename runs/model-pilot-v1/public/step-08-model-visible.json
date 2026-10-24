@@ -1,0 +1,391 @@
+[
+  {
+    "id": "A",
+    "input_sha256": "9832431ce1be324aa9648f25e79d7adb9d13e933c2e1aff3df3fdde155ca173f",
+    "time_h": 98.0,
+    "flow": 10.0,
+    "resources": {
+      "medium_used_ml": 529.9,
+      "medium_remaining_ml": 1470.1,
+      "sample_used_ml": 3.9,
+      "sample_remaining_ml": 14.1
+    },
+    "assessment": {
+      "decision": "hold",
+      "reasons": [
+        "Adverse sampled process condition at 48 h (S-003)",
+        "Historical sensor discrepancy needs review (S-004)",
+        "Process not complete",
+        "Missing qualifying evidence: identity, phenotype, viability, genomic_screen, microbial_screen"
+      ],
+      "evidence_ids": [],
+      "missing": [
+        "identity",
+        "phenotype",
+        "viability",
+        "genomic_screen",
+        "microbial_screen"
+      ],
+      "history_issues": [
+        "Adverse sampled process condition at 48 h (S-003)",
+        "Historical sensor discrepancy needs review (S-004)"
+      ],
+      "scope": "Simulated banking recommendation only"
+    },
+    "telemetry": [
+      {
+        "time_h": 96.0,
+        "ph": 7.0441,
+        "do_pct": 39.832
+      },
+      {
+        "time_h": 97.0,
+        "ph": 7.0304,
+        "do_pct": 39.516
+      },
+      {
+        "time_h": 98.0,
+        "ph": 7.0304,
+        "do_pct": 40.266
+      }
+    ],
+    "samples": [
+      {
+        "id": "S-004",
+        "assay": "calibration",
+        "collected_h": 48.0,
+        "result_h": 49.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "ph_online": 7.0423,
+          "ph_reference": 6.7623,
+          "bias_estimate": 0.28
+        }
+      },
+      {
+        "id": "S-006",
+        "assay": "metabolic",
+        "collected_h": 74.0,
+        "result_h": 76.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "glucose_g_l": 4.8958,
+          "lactate_g_l": 1.7535,
+          "viable_cell_density_m_ml": 1.9188,
+          "viability": 0.9132,
+          "ph_independent": 7.0502,
+          "aggregate_diameter_um": 156.6
+        }
+      },
+      {
+        "id": "S-007",
+        "assay": "metabolic",
+        "collected_h": 96.0,
+        "result_h": 98.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "glucose_g_l": 4.8131,
+          "lactate_g_l": 1.8378,
+          "viable_cell_density_m_ml": 2.7956,
+          "viability": 0.9294,
+          "ph_independent": 7.0234,
+          "aggregate_diameter_um": 177.5
+        }
+      }
+    ],
+    "recent_interventions": [
+      {
+        "id": "EV-0010",
+        "time_h": 50.0,
+        "kind": "intervention",
+        "title": "pH calibration corrected",
+        "detail": "Earlier history is retained.",
+        "evidence": [
+          "S-004"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "B",
+    "input_sha256": "f91dcf7fe015a426aceb06b7a65ddeae87731303d146abc01a37c69d6b4b739c",
+    "time_h": 98.0,
+    "flow": 10.0,
+    "resources": {
+      "medium_used_ml": 505.32,
+      "medium_remaining_ml": 1494.68,
+      "sample_used_ml": 3.8,
+      "sample_remaining_ml": 14.2
+    },
+    "assessment": {
+      "decision": "hold",
+      "reasons": [
+        "Process not complete",
+        "Missing qualifying evidence: identity, phenotype, viability, genomic_screen, microbial_screen"
+      ],
+      "evidence_ids": [],
+      "missing": [
+        "identity",
+        "phenotype",
+        "viability",
+        "genomic_screen",
+        "microbial_screen"
+      ],
+      "history_issues": [],
+      "scope": "Simulated banking recommendation only"
+    },
+    "telemetry": [
+      {
+        "time_h": 96.0,
+        "ph": 7.0311,
+        "do_pct": 40.028
+      },
+      {
+        "time_h": 97.0,
+        "ph": 7.0296,
+        "do_pct": 40.133
+      },
+      {
+        "time_h": 98.0,
+        "ph": 7.0345,
+        "do_pct": 39.403
+      }
+    ],
+    "samples": [
+      {
+        "id": "S-004",
+        "assay": "delivery",
+        "collected_h": 48.0,
+        "result_h": 49.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "command_ml_h": 3.0,
+          "measured_ml_h": 0.96
+        }
+      },
+      {
+        "id": "S-005",
+        "assay": "delivery",
+        "collected_h": 50.0,
+        "result_h": 51.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "command_ml_h": 6.0,
+          "measured_ml_h": 6.0
+        }
+      },
+      {
+        "id": "S-007",
+        "assay": "metabolic",
+        "collected_h": 74.0,
+        "result_h": 76.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "glucose_g_l": 4.8136,
+          "lactate_g_l": 1.7788,
+          "viable_cell_density_m_ml": 1.985,
+          "viability": 0.9708,
+          "ph_independent": 7.0359,
+          "aggregate_diameter_um": 158.3
+        }
+      },
+      {
+        "id": "S-008",
+        "assay": "metabolic",
+        "collected_h": 96.0,
+        "result_h": 98.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "glucose_g_l": 5.0339,
+          "lactate_g_l": 1.86,
+          "viable_cell_density_m_ml": 2.8348,
+          "viability": 0.9689,
+          "ph_independent": 7.0372,
+          "aggregate_diameter_um": 178.3
+        }
+      }
+    ],
+    "recent_interventions": []
+  },
+  {
+    "id": "C",
+    "input_sha256": "fda0a57f2bd9e27e268c897c2bcc933d0294c777cb73fa991ee7d65e1417526d",
+    "time_h": 98.0,
+    "flow": 10.0,
+    "resources": {
+      "medium_used_ml": 529.6,
+      "medium_remaining_ml": 1470.4,
+      "sample_used_ml": 3.6,
+      "sample_remaining_ml": 14.4
+    },
+    "assessment": {
+      "decision": "hold",
+      "reasons": [
+        "Process not complete",
+        "Missing qualifying evidence: identity, phenotype, viability, genomic_screen, microbial_screen"
+      ],
+      "evidence_ids": [],
+      "missing": [
+        "identity",
+        "phenotype",
+        "viability",
+        "genomic_screen",
+        "microbial_screen"
+      ],
+      "history_issues": [],
+      "scope": "Simulated banking recommendation only"
+    },
+    "telemetry": [
+      {
+        "time_h": 96.0,
+        "ph": 7.0243,
+        "do_pct": 38.993
+      },
+      {
+        "time_h": 97.0,
+        "ph": 7.0391,
+        "do_pct": 40.411
+      },
+      {
+        "time_h": 98.0,
+        "ph": 7.028,
+        "do_pct": 40.532
+      }
+    ],
+    "samples": [
+      {
+        "id": "S-005",
+        "assay": "metabolic",
+        "collected_h": 74.0,
+        "result_h": 76.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "glucose_g_l": 4.8929,
+          "lactate_g_l": 1.9104,
+          "viable_cell_density_m_ml": 2.0051,
+          "viability": 0.9709,
+          "ph_independent": 7.0338,
+          "aggregate_diameter_um": 158.9
+        }
+      },
+      {
+        "id": "S-006",
+        "assay": "metabolic",
+        "collected_h": 96.0,
+        "result_h": 98.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "glucose_g_l": 4.7587,
+          "lactate_g_l": 2.037,
+          "viable_cell_density_m_ml": 2.8495,
+          "viability": 0.9689,
+          "ph_independent": 7.0184,
+          "aggregate_diameter_um": 178.6
+        }
+      }
+    ],
+    "recent_interventions": []
+  },
+  {
+    "id": "D",
+    "input_sha256": "345ee76377c2fa19e6cce9384a8a0e993ac46fd334b3fe78c932084a594cec0a",
+    "time_h": 98.0,
+    "flow": 12.0,
+    "resources": {
+      "medium_used_ml": 629.7,
+      "medium_remaining_ml": 1370.3,
+      "sample_used_ml": 3.7,
+      "sample_remaining_ml": 14.3
+    },
+    "assessment": {
+      "decision": "hold",
+      "reasons": [
+        "Process not complete",
+        "Missing qualifying evidence: identity, phenotype, viability, genomic_screen, microbial_screen"
+      ],
+      "evidence_ids": [],
+      "missing": [
+        "identity",
+        "phenotype",
+        "viability",
+        "genomic_screen",
+        "microbial_screen"
+      ],
+      "history_issues": [],
+      "scope": "Simulated banking recommendation only"
+    },
+    "telemetry": [
+      {
+        "time_h": 96.0,
+        "ph": 7.0209,
+        "do_pct": 33.973
+      },
+      {
+        "time_h": 97.0,
+        "ph": 7.0064,
+        "do_pct": 33.225
+      },
+      {
+        "time_h": 98.0,
+        "ph": 7.001,
+        "do_pct": 32.697
+      }
+    ],
+    "samples": [
+      {
+        "id": "S-004",
+        "assay": "delivery",
+        "collected_h": 50.0,
+        "result_h": 51.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "command_ml_h": 6.0,
+          "measured_ml_h": 6.0
+        }
+      },
+      {
+        "id": "S-006",
+        "assay": "metabolic",
+        "collected_h": 74.0,
+        "result_h": 76.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "glucose_g_l": 4.3454,
+          "lactate_g_l": 2.4749,
+          "viable_cell_density_m_ml": 1.992,
+          "viability": 0.9591,
+          "ph_independent": 7.002,
+          "aggregate_diameter_um": 158.5
+        }
+      },
+      {
+        "id": "S-007",
+        "assay": "metabolic",
+        "collected_h": 96.0,
+        "result_h": 98.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "glucose_g_l": 4.2455,
+          "lactate_g_l": 2.7842,
+          "viable_cell_density_m_ml": 2.6842,
+          "viability": 0.9386,
+          "ph_independent": 7.0153,
+          "aggregate_diameter_um": 175.1
+        }
+      }
+    ],
+    "recent_interventions": []
+  }
+]

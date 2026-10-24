@@ -1,0 +1,338 @@
+[
+  {
+    "id": "A",
+    "input_sha256": "9288ef232fb3b323282f144cc8ec53100baea30ddcc5ca73aefecd70b4d16f56",
+    "time_h": 60.0,
+    "flow": 6.0,
+    "resources": {
+      "medium_used_ml": 212.1,
+      "medium_remaining_ml": 1787.9,
+      "sample_used_ml": 2.1,
+      "sample_remaining_ml": 15.9
+    },
+    "assessment": {
+      "decision": "hold",
+      "reasons": [
+        "Adverse sampled process condition at 48 h (S-003)",
+        "Historical sensor discrepancy needs review (S-004)",
+        "Process not complete",
+        "Missing qualifying evidence: identity, phenotype, viability, genomic_screen, microbial_screen"
+      ],
+      "evidence_ids": [],
+      "missing": [
+        "identity",
+        "phenotype",
+        "viability",
+        "genomic_screen",
+        "microbial_screen"
+      ],
+      "history_issues": [
+        "Adverse sampled process condition at 48 h (S-003)",
+        "Historical sensor discrepancy needs review (S-004)"
+      ],
+      "scope": "Simulated banking recommendation only"
+    },
+    "telemetry": [
+      {
+        "time_h": 58.0,
+        "ph": 7.0514,
+        "do_pct": 40.514
+      },
+      {
+        "time_h": 59.0,
+        "ph": 7.0314,
+        "do_pct": 40.255
+      },
+      {
+        "time_h": 60.0,
+        "ph": 7.0379,
+        "do_pct": 40.483
+      }
+    ],
+    "samples": [
+      {
+        "id": "S-003",
+        "assay": "metabolic",
+        "collected_h": 48.0,
+        "result_h": 50.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "glucose_g_l": 5.1616,
+          "lactate_g_l": 1.3322,
+          "viable_cell_density_m_ml": 1.1832,
+          "viability": 0.8959,
+          "ph_independent": 6.7559,
+          "aggregate_diameter_um": 133.3
+        }
+      },
+      {
+        "id": "S-004",
+        "assay": "calibration",
+        "collected_h": 48.0,
+        "result_h": 49.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "ph_online": 7.0423,
+          "ph_reference": 6.7623,
+          "bias_estimate": 0.28
+        }
+      }
+    ],
+    "recent_interventions": [
+      {
+        "id": "EV-0010",
+        "time_h": 50.0,
+        "kind": "intervention",
+        "title": "pH calibration corrected",
+        "detail": "Earlier history is retained.",
+        "evidence": [
+          "S-004"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "B",
+    "input_sha256": "71be8f9aaeea81a1dd41ed5f58981968d7059c366aa50430439365ee4907d0e0",
+    "time_h": 60.0,
+    "flow": 6.0,
+    "resources": {
+      "medium_used_ml": 187.52,
+      "medium_remaining_ml": 1812.48,
+      "sample_used_ml": 2.0,
+      "sample_remaining_ml": 16.0
+    },
+    "assessment": {
+      "decision": "hold",
+      "reasons": [
+        "Process not complete",
+        "Missing qualifying evidence: identity, phenotype, viability, genomic_screen, microbial_screen"
+      ],
+      "evidence_ids": [],
+      "missing": [
+        "identity",
+        "phenotype",
+        "viability",
+        "genomic_screen",
+        "microbial_screen"
+      ],
+      "history_issues": [],
+      "scope": "Simulated banking recommendation only"
+    },
+    "telemetry": [
+      {
+        "time_h": 58.0,
+        "ph": 7.0595,
+        "do_pct": 40.501
+      },
+      {
+        "time_h": 59.0,
+        "ph": 7.0309,
+        "do_pct": 40.013
+      },
+      {
+        "time_h": 60.0,
+        "ph": 7.0235,
+        "do_pct": 39.747
+      }
+    ],
+    "samples": [
+      {
+        "id": "S-003",
+        "assay": "metabolic",
+        "collected_h": 48.0,
+        "result_h": 50.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "glucose_g_l": 5.2106,
+          "lactate_g_l": 1.3588,
+          "viable_cell_density_m_ml": 1.243,
+          "viability": 0.9723,
+          "ph_independent": 7.0368,
+          "aggregate_diameter_um": 135.5
+        }
+      },
+      {
+        "id": "S-004",
+        "assay": "delivery",
+        "collected_h": 48.0,
+        "result_h": 49.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "command_ml_h": 3.0,
+          "measured_ml_h": 0.96
+        }
+      },
+      {
+        "id": "S-005",
+        "assay": "delivery",
+        "collected_h": 50.0,
+        "result_h": 51.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "command_ml_h": 6.0,
+          "measured_ml_h": 6.0
+        }
+      }
+    ],
+    "recent_interventions": [
+      {
+        "id": "EV-0010",
+        "time_h": 50.0,
+        "kind": "intervention",
+        "title": "Delivery path serviced",
+        "detail": "Subsequent delivery should be verified.",
+        "evidence": [
+          "S-004"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "C",
+    "input_sha256": "847ae43e6746369d287ed5669944936d5d8fccd8e6b8e2a22dd0037915d260bc",
+    "time_h": 60.0,
+    "flow": 6.0,
+    "resources": {
+      "medium_used_ml": 211.8,
+      "medium_remaining_ml": 1788.2,
+      "sample_used_ml": 1.8,
+      "sample_remaining_ml": 16.2
+    },
+    "assessment": {
+      "decision": "hold",
+      "reasons": [
+        "Process not complete",
+        "Missing qualifying evidence: identity, phenotype, viability, genomic_screen, microbial_screen"
+      ],
+      "evidence_ids": [],
+      "missing": [
+        "identity",
+        "phenotype",
+        "viability",
+        "genomic_screen",
+        "microbial_screen"
+      ],
+      "history_issues": [],
+      "scope": "Simulated banking recommendation only"
+    },
+    "telemetry": [
+      {
+        "time_h": 58.0,
+        "ph": 7.0355,
+        "do_pct": 40.171
+      },
+      {
+        "time_h": 59.0,
+        "ph": 7.0461,
+        "do_pct": 39.643
+      },
+      {
+        "time_h": 60.0,
+        "ph": 7.0243,
+        "do_pct": 39.924
+      }
+    ],
+    "samples": [
+      {
+        "id": "S-003",
+        "assay": "metabolic",
+        "collected_h": 48.0,
+        "result_h": 50.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "glucose_g_l": 5.1201,
+          "lactate_g_l": 1.361,
+          "viable_cell_density_m_ml": 1.2491,
+          "viability": 0.9724,
+          "ph_independent": 7.0295,
+          "aggregate_diameter_um": 135.7
+        }
+      }
+    ],
+    "recent_interventions": []
+  },
+  {
+    "id": "D",
+    "input_sha256": "92dc9fe9e27bae431fd46cab1ebaae0274b81d132267e5b90f3128717ef31a16",
+    "time_h": 60.0,
+    "flow": 6.0,
+    "resources": {
+      "medium_used_ml": 211.9,
+      "medium_remaining_ml": 1788.1,
+      "sample_used_ml": 1.9,
+      "sample_remaining_ml": 16.1
+    },
+    "assessment": {
+      "decision": "hold",
+      "reasons": [
+        "Process not complete",
+        "Missing qualifying evidence: identity, phenotype, viability, genomic_screen, microbial_screen"
+      ],
+      "evidence_ids": [],
+      "missing": [
+        "identity",
+        "phenotype",
+        "viability",
+        "genomic_screen",
+        "microbial_screen"
+      ],
+      "history_issues": [],
+      "scope": "Simulated banking recommendation only"
+    },
+    "telemetry": [
+      {
+        "time_h": 58.0,
+        "ph": 7.0132,
+        "do_pct": 40.306
+      },
+      {
+        "time_h": 59.0,
+        "ph": 7.0365,
+        "do_pct": 39.959
+      },
+      {
+        "time_h": 60.0,
+        "ph": 7.0143,
+        "do_pct": 40.565
+      }
+    ],
+    "samples": [
+      {
+        "id": "S-003",
+        "assay": "metabolic",
+        "collected_h": 48.0,
+        "result_h": 50.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "glucose_g_l": 5.0863,
+          "lactate_g_l": 1.5741,
+          "viable_cell_density_m_ml": 1.304,
+          "viability": 0.9731,
+          "ph_independent": 7.024,
+          "aggregate_diameter_um": 137.6
+        }
+      },
+      {
+        "id": "S-004",
+        "assay": "delivery",
+        "collected_h": 50.0,
+        "result_h": 51.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "command_ml_h": 6.0,
+          "measured_ml_h": 6.0
+        }
+      }
+    ],
+    "recent_interventions": []
+  }
+]

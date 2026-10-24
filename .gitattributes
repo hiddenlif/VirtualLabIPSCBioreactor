@@ -1,0 +1,2 @@
+# Preserve exact bytes of source-bound scientific evidence, including CSV line endings.
+* -text

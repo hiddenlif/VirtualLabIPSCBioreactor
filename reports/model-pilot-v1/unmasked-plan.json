@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "id": "A",
+      "scenario": "probe_drift",
+      "seed": 211
+    },
+    {
+      "id": "B",
+      "scenario": "delivery_loss",
+      "seed": 223
+    },
+    {
+      "id": "C",
+      "scenario": "nominal",
+      "seed": 227
+    },
+    {
+      "id": "D",
+      "scenario": "demand_shift",
+      "seed": 229
+    }
+  ],
+  "source_hashes": {
+    "config/sop.json": "1ace16689275a24eecaa7b1f4a51eb2c18411f72a4620eff460bf182f1371c59",
+    "ipsc_lab/__init__.py": "3c162bcb22f81a10386e74ac6565978a255057bffe7636a6b8cdb726447a9130",
+    "ipsc_lab/engine.py": "3658a9e84bc0606885990355ee2ccceb6ce59d242d5e31a8a068aa58c5418da3",
+    "ipsc_lab/policies.py": "c1471c4cfb2f0289514e61d7cf6f36104e032a039f80a6e2da5cf6e2d126b648",
+    "ipsc_lab/server.py": "c714d8cd4403f6510d25119ff2f6434772433de3bff62f26e7cb32a142358ba8",
+    "scripts/evaluate.py": "3a5f95968dc8233ab812d19132cc513fc4566027da3ae2f01e81a69b3cd16e7c"
+  },
+  "created_at": "2026-10-24 14:01 PDT",
+  "warm_start_h": 48,
+  "closeout_h": 156,
+  "comparators": [
+    "fixed",
+    "feedback",
+    "diagnostic"
+  ],
+  "model_provenance": "Active Codex primary conversation; exact model and effort not provided by runtime",
+  "limitation": "The developer-model knows the simulator design. Scenario mapping is masked until closeout; this is not independent blinding."
+}

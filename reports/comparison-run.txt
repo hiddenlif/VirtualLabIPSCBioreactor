@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-10-24 14:02 PDT",
+  "plan_sha256": "543464cda94c220e85450d70cfc277c2e490cc713533fa6390c214472ba80a06",
+  "campaign_count": 126,
+  "summary": [
+    {
+      "policy": "fixed",
+      "label": "Fixed schedule",
+      "n": 42,
+      "mean_yield_million": 314.25684505016204,
+      "mean_media_ml": 318.2600000000008,
+      "mean_adverse_h": 21.875,
+      "decision_agreement": 40,
+      "unsafe_accepts": 2,
+      "unnecessary_holds": 0,
+      "max_balance_residual": 7.389644451905042e-13
+    },
+    {
+      "policy": "feedback",
+      "label": "Conventional feedback",
+      "n": 42,
+      "mean_yield_million": 387.3560630834439,
+      "mean_media_ml": 507.51904761904757,
+      "mean_adverse_h": 21.898809523809526,
+      "decision_agreement": 41,
+      "unsafe_accepts": 1,
+      "unnecessary_holds": 0,
+      "max_balance_residual": 7.389644451905042e-13
+    },
+    {
+      "policy": "diagnostic",
+      "label": "Evidence-seeking supervisor (rules)",
+      "n": 42,
+      "mean_yield_million": 434.851807188392,
+      "mean_media_ml": 532.2600000000003,
+      "mean_adverse_h": 2.5,
+      "decision_agreement": 41,
+      "unsafe_accepts": 1,
+      "unnecessary_holds": 0,
+      "max_balance_residual": 1.3073986337985843e-12
+    }
+  ],
+  "ai_runs": 0,
+  "scope": "Executed synthetic comparator study; AI pilot is recorded separately"
+}

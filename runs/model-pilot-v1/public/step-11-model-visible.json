@@ -1,0 +1,467 @@
+[
+  {
+    "id": "A",
+    "input_sha256": "f44fa3698db76d043eebaaa037a6ddc24c1197363e767e3441b5c329f28c4419",
+    "time_h": 150.0,
+    "flow": 12.0,
+    "resources": {
+      "medium_used_ml": 796.0,
+      "medium_remaining_ml": 1204.0,
+      "sample_used_ml": 6.0,
+      "sample_remaining_ml": 12.0
+    },
+    "assessment": {
+      "decision": "hold",
+      "reasons": [
+        "Adverse sampled process condition at 48 h (S-003)",
+        "Historical sensor discrepancy needs review (S-004)"
+      ],
+      "evidence_ids": [
+        "S-009",
+        "S-010",
+        "S-011",
+        "S-012",
+        "S-013"
+      ],
+      "missing": [],
+      "history_issues": [
+        "Adverse sampled process condition at 48 h (S-003)",
+        "Historical sensor discrepancy needs review (S-004)"
+      ],
+      "scope": "Simulated banking recommendation only"
+    },
+    "telemetry": [
+      {
+        "time_h": 118.0,
+        "ph": 7.0184,
+        "do_pct": 40.62
+      },
+      {
+        "time_h": 119.0,
+        "ph": 7.0185,
+        "do_pct": 39.54
+      },
+      {
+        "time_h": 120.0,
+        "ph": 7.0198,
+        "do_pct": 39.969
+      }
+    ],
+    "samples": [
+      {
+        "id": "S-004",
+        "assay": "calibration",
+        "collected_h": 48.0,
+        "result_h": 49.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "ph_online": 7.0423,
+          "ph_reference": 6.7623,
+          "bias_estimate": 0.28
+        }
+      },
+      {
+        "id": "S-009",
+        "assay": "identity",
+        "collected_h": 118.0,
+        "result_h": 124.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "identity": "match"
+        }
+      },
+      {
+        "id": "S-010",
+        "assay": "phenotype",
+        "collected_h": 118.0,
+        "result_h": 126.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "phenotype": 0.947
+        }
+      },
+      {
+        "id": "S-011",
+        "assay": "viability",
+        "collected_h": 118.0,
+        "result_h": 120.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "viability": 0.9371
+        }
+      },
+      {
+        "id": "S-012",
+        "assay": "genomic_screen",
+        "collected_h": 118.0,
+        "result_h": 142.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "genomic_screen": "no_flag"
+        }
+      },
+      {
+        "id": "S-013",
+        "assay": "microbial_screen",
+        "collected_h": 118.0,
+        "result_h": 148.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "microbial_screen": "negative"
+        }
+      }
+    ],
+    "recent_interventions": []
+  },
+  {
+    "id": "B",
+    "input_sha256": "da48350afd86385c9be6d55b7e980b00326e0f5722ddba5d8bf64d3308ee9ecc",
+    "time_h": 150.0,
+    "flow": 12.0,
+    "resources": {
+      "medium_used_ml": 771.42,
+      "medium_remaining_ml": 1228.58,
+      "sample_used_ml": 5.9,
+      "sample_remaining_ml": 12.1
+    },
+    "assessment": {
+      "decision": "accept",
+      "reasons": [
+        "Complete passing evidence under the simulation SOP"
+      ],
+      "evidence_ids": [
+        "S-010",
+        "S-011",
+        "S-012",
+        "S-013",
+        "S-014"
+      ],
+      "missing": [],
+      "history_issues": [],
+      "scope": "Simulated banking recommendation only"
+    },
+    "telemetry": [
+      {
+        "time_h": 118.0,
+        "ph": 7.0205,
+        "do_pct": 39.821
+      },
+      {
+        "time_h": 119.0,
+        "ph": 7.0207,
+        "do_pct": 39.257
+      },
+      {
+        "time_h": 120.0,
+        "ph": 7.0354,
+        "do_pct": 39.719
+      }
+    ],
+    "samples": [
+      {
+        "id": "S-004",
+        "assay": "delivery",
+        "collected_h": 48.0,
+        "result_h": 49.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "command_ml_h": 3.0,
+          "measured_ml_h": 0.96
+        }
+      },
+      {
+        "id": "S-005",
+        "assay": "delivery",
+        "collected_h": 50.0,
+        "result_h": 51.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "command_ml_h": 6.0,
+          "measured_ml_h": 6.0
+        }
+      },
+      {
+        "id": "S-010",
+        "assay": "identity",
+        "collected_h": 118.0,
+        "result_h": 124.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "identity": "match"
+        }
+      },
+      {
+        "id": "S-011",
+        "assay": "phenotype",
+        "collected_h": 118.0,
+        "result_h": 126.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "phenotype": 0.96
+        }
+      },
+      {
+        "id": "S-012",
+        "assay": "viability",
+        "collected_h": 118.0,
+        "result_h": 120.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "viability": 0.9664
+        }
+      },
+      {
+        "id": "S-013",
+        "assay": "genomic_screen",
+        "collected_h": 118.0,
+        "result_h": 142.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "genomic_screen": "no_flag"
+        }
+      },
+      {
+        "id": "S-014",
+        "assay": "microbial_screen",
+        "collected_h": 118.0,
+        "result_h": 148.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "microbial_screen": "negative"
+        }
+      }
+    ],
+    "recent_interventions": []
+  },
+  {
+    "id": "C",
+    "input_sha256": "ed21e65831e7439ec5358be071450817f9bdb7d63f599371ee05453d99dcdaff",
+    "time_h": 150.0,
+    "flow": 12.0,
+    "resources": {
+      "medium_used_ml": 795.7,
+      "medium_remaining_ml": 1204.3,
+      "sample_used_ml": 5.7,
+      "sample_remaining_ml": 12.3
+    },
+    "assessment": {
+      "decision": "accept",
+      "reasons": [
+        "Complete passing evidence under the simulation SOP"
+      ],
+      "evidence_ids": [
+        "S-008",
+        "S-009",
+        "S-010",
+        "S-011",
+        "S-012"
+      ],
+      "missing": [],
+      "history_issues": [],
+      "scope": "Simulated banking recommendation only"
+    },
+    "telemetry": [
+      {
+        "time_h": 118.0,
+        "ph": 7.0211,
+        "do_pct": 40.276
+      },
+      {
+        "time_h": 119.0,
+        "ph": 7.0295,
+        "do_pct": 40.289
+      },
+      {
+        "time_h": 120.0,
+        "ph": 7.0227,
+        "do_pct": 39.505
+      }
+    ],
+    "samples": [
+      {
+        "id": "S-008",
+        "assay": "identity",
+        "collected_h": 118.0,
+        "result_h": 124.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "identity": "match"
+        }
+      },
+      {
+        "id": "S-009",
+        "assay": "phenotype",
+        "collected_h": 118.0,
+        "result_h": 126.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "phenotype": 0.96
+        }
+      },
+      {
+        "id": "S-010",
+        "assay": "viability",
+        "collected_h": 118.0,
+        "result_h": 120.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "viability": 0.964
+        }
+      },
+      {
+        "id": "S-011",
+        "assay": "genomic_screen",
+        "collected_h": 118.0,
+        "result_h": 142.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "genomic_screen": "no_flag"
+        }
+      },
+      {
+        "id": "S-012",
+        "assay": "microbial_screen",
+        "collected_h": 118.0,
+        "result_h": 148.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "microbial_screen": "negative"
+        }
+      }
+    ],
+    "recent_interventions": []
+  },
+  {
+    "id": "D",
+    "input_sha256": "ee6d20fd7a3c0ed32665696c0e1ee04282c21d8b7f28cc84e7817b8e7aadeb21",
+    "time_h": 150.0,
+    "flow": 12.0,
+    "resources": {
+      "medium_used_ml": 895.8,
+      "medium_remaining_ml": 1104.2,
+      "sample_used_ml": 5.8,
+      "sample_remaining_ml": 12.2
+    },
+    "assessment": {
+      "decision": "accept",
+      "reasons": [
+        "Complete passing evidence under the simulation SOP"
+      ],
+      "evidence_ids": [
+        "S-009",
+        "S-010",
+        "S-011",
+        "S-012",
+        "S-013"
+      ],
+      "missing": [],
+      "history_issues": [],
+      "scope": "Simulated banking recommendation only"
+    },
+    "telemetry": [
+      {
+        "time_h": 118.0,
+        "ph": 6.9878,
+        "do_pct": 24.168
+      },
+      {
+        "time_h": 119.0,
+        "ph": 6.9995,
+        "do_pct": 23.889
+      },
+      {
+        "time_h": 120.0,
+        "ph": 6.9947,
+        "do_pct": 24.267
+      }
+    ],
+    "samples": [
+      {
+        "id": "S-004",
+        "assay": "delivery",
+        "collected_h": 50.0,
+        "result_h": 51.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "command_ml_h": 6.0,
+          "measured_ml_h": 6.0
+        }
+      },
+      {
+        "id": "S-009",
+        "assay": "identity",
+        "collected_h": 118.0,
+        "result_h": 124.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "identity": "match"
+        }
+      },
+      {
+        "id": "S-010",
+        "assay": "phenotype",
+        "collected_h": 118.0,
+        "result_h": 126.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "phenotype": 0.96
+        }
+      },
+      {
+        "id": "S-011",
+        "assay": "viability",
+        "collected_h": 118.0,
+        "result_h": 120.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "viability": 0.9019
+        }
+      },
+      {
+        "id": "S-012",
+        "assay": "genomic_screen",
+        "collected_h": 118.0,
+        "result_h": 142.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "genomic_screen": "no_flag"
+        }
+      },
+      {
+        "id": "S-013",
+        "assay": "microbial_screen",
+        "collected_h": 118.0,
+        "result_h": 148.0,
+        "status": "complete",
+        "valid": true,
+        "values": {
+          "microbial_screen": "negative"
+        }
+      }
+    ],
+    "recent_interventions": []
+  }
+]

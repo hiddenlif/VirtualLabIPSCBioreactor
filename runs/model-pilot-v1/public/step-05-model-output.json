@@ -1,0 +1,58 @@
+[
+  {
+    "id": "A",
+    "commands": [
+      {
+        "type": "sample",
+        "panel": "metabolic"
+      }
+    ],
+    "advance_h": 2,
+    "evidence": [
+      "S-005"
+    ],
+    "rationale": "Scheduled reassessment of independent pH, recovery and metabolism after fourteen hours since the last collection."
+  },
+  {
+    "id": "B",
+    "commands": [
+      {
+        "type": "sample",
+        "panel": "metabolic"
+      }
+    ],
+    "advance_h": 2,
+    "evidence": [
+      "S-006"
+    ],
+    "rationale": "Scheduled metabolic reassessment after confirmed equipment recovery; use measured growth and metabolites to adjust dilution."
+  },
+  {
+    "id": "C",
+    "commands": [
+      {
+        "type": "sample",
+        "panel": "metabolic"
+      }
+    ],
+    "advance_h": 2,
+    "evidence": [
+      "S-004"
+    ],
+    "rationale": "Obtain current glucose and lactate rather than continuing to control from a fourteen-hour-old sample."
+  },
+  {
+    "id": "D",
+    "commands": [
+      {
+        "type": "sample",
+        "panel": "metabolic"
+      }
+    ],
+    "advance_h": 2,
+    "evidence": [
+      "S-005"
+    ],
+    "rationale": "Measure whether the higher perfusion setting has contained the metabolic trend without a further unsupported equipment intervention."
+  }
+]

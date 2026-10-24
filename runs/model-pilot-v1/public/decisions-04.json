@@ -1,0 +1,6 @@
+[
+ {"id":"A","commands":[],"advance_h":12,"evidence":["S-005"],"rationale":"The independent pH has recovered and the valid glucose/lactate sample supports continuing 6 mL/h. Retain the historical hold and reassess metabolism after twelve hours."},
+ {"id":"B","commands":[],"advance_h":12,"evidence":["S-005","S-006"],"rationale":"Delivery is verified after service, glucose is ample and lactate is controlled. Continue 6 mL/h until the next scheduled metabolic check."},
+ {"id":"C","commands":[],"advance_h":12,"evidence":["S-004"],"rationale":"Independent pH, viability and glucose remain acceptable within the illustrative model. Maintain 6 mL/h and schedule another metabolic assessment."},
+ {"id":"D","commands":[{"type":"set_perfusion","value":10}],"advance_h":12,"evidence":["S-004","S-005"],"rationale":"Correct delivery is verified, yet lactate rose to 2.291 g/L and glucose fell to 4.6223 g/L. Increased biological demand is a supported explanation, not evidence of differentiation. Increase dilution to 10 mL/h and check the response."}
+]

@@ -1,0 +1,11 @@
+.runtime/
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+runs/model-pilot-v1/private/
+
+# Local credentials and environment overrides
+.env
+.env.*
+!.env.example

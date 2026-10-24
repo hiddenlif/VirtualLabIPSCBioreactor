@@ -1,0 +1,6 @@
+[
+ {"id":"A","commands":[],"advance_h":30,"evidence":["S-008","S-011"],"rationale":"Culture has ended. Viability is valid and currently above the project minimum, but identity, phenotype, genomic and microbial evidence remain pending. Wait through the longest assay delay; retain the historical process hold."},
+ {"id":"B","commands":[],"advance_h":30,"evidence":["S-009","S-012"],"rationale":"Do not accept on a passing viability result alone. Culture is complete and the other required independent QC channels must return before disposition."},
+ {"id":"C","commands":[],"advance_h":30,"evidence":["S-007","S-010"],"rationale":"Near-endpoint viability and independent pH are available, but four required QC channels are pending. Advance the evidence clock without further culture interventions."},
+ {"id":"D","commands":[],"advance_h":30,"evidence":["S-008","S-011"],"rationale":"The endpoint has no recorded oxygen-threshold crossing, but viability declined and separate QC results are still pending. Maintain hold while those measurements finish; favorable current pH cannot replace them."}
+]

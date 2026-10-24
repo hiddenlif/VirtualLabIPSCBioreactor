@@ -1,0 +1,13 @@
+{
+  "status": "READY_FOR_INITIAL_PUSH",
+  "checked_at": "2026-10-24 15:39 PDT",
+  "repository": "hiddenlif/ipsc-bioreactor-lab",
+  "visibility": "private",
+  "local_tests": "PASS",
+  "retained_scientific_artifacts": "PASS",
+  "credential_pattern_findings": [],
+  "files_over_90_mib": [],
+  "included_file_count_before_this_record": 102,
+  "excluded": "Runtime sessions, interpreter caches, local environments; private pilot working states (iPSC), original 223 MB CSV (spatial)",
+  "scientific_scope": "Repository preparation leaves frozen scientific source and study artifacts unchanged"
+}

@@ -1,0 +1,340 @@
+{
+  "n": 4,
+  "decision_count": 44,
+  "provenance": "Active Codex primary conversation; exact model and effort not provided by runtime",
+  "plan_sha256": "7ef4fa3d8b22a28f310f8d3ae3d50ac72d73190ddb4b2853389073bb22037f21",
+  "source_hashes": {
+    "config/sop.json": "1ace16689275a24eecaa7b1f4a51eb2c18411f72a4620eff460bf182f1371c59",
+    "ipsc_lab/__init__.py": "3c162bcb22f81a10386e74ac6565978a255057bffe7636a6b8cdb726447a9130",
+    "ipsc_lab/engine.py": "3658a9e84bc0606885990355ee2ccceb6ce59d242d5e31a8a068aa58c5418da3",
+    "ipsc_lab/policies.py": "c1471c4cfb2f0289514e61d7cf6f36104e032a039f80a6e2da5cf6e2d126b648",
+    "ipsc_lab/server.py": "c714d8cd4403f6510d25119ff2f6434772433de3bff62f26e7cb32a142358ba8",
+    "scripts/evaluate.py": "3a5f95968dc8233ab812d19132cc513fc4566027da3ae2f01e81a69b3cd16e7c"
+  },
+  "episodes": [
+    {
+      "id": "A",
+      "scenario": "probe_drift",
+      "seed": 211,
+      "model_yield_million": 587.390240340756,
+      "rule_yield_million": 507.4421790391725,
+      "model_media_ml": 795.9999999999999,
+      "model_adverse_h": 13.0,
+      "proposed_disposition": "hold",
+      "public_decision": "hold",
+      "latent_decision": "hold",
+      "baselines": [
+        {
+          "policy": "fixed",
+          "scenario": "probe_drift",
+          "seed": 211,
+          "onset_h": 34,
+          "mu_h": 0.034519167802177,
+          "qg": 3.1926240399008594e-05,
+          "yield_million_cells": 258.46492674772395,
+          "viability": 0.5398605217124469,
+          "adverse_exposure_h": 83.0,
+          "medium_used_ml": 364.50000000000006,
+          "sample_used_ml": 4.499999999999999,
+          "latent_quality_decision": "reject",
+          "public_decision": "reject",
+          "balances": {
+            "glucose_g": 1.1546319456101628e-14,
+            "lactate_g": 1.1102230246251565e-16,
+            "viable_million": 5.115907697472721e-13,
+            "dead_million": 0.0
+          }
+        },
+        {
+          "policy": "feedback",
+          "scenario": "probe_drift",
+          "seed": 211,
+          "onset_h": 34,
+          "mu_h": 0.034519167802177,
+          "qg": 3.1926240399008594e-05,
+          "yield_million_cells": 320.6284260127146,
+          "viability": 0.6170277319961364,
+          "adverse_exposure_h": 83.0,
+          "medium_used_ml": 574.3000000000002,
+          "sample_used_ml": 6.299999999999999,
+          "latent_quality_decision": "reject",
+          "public_decision": "reject",
+          "balances": {
+            "glucose_g": 6.994405055138486e-15,
+            "lactate_g": 2.220446049250313e-16,
+            "viable_million": -2.2737367544323206e-13,
+            "dead_million": -5.684341886080802e-14
+          }
+        },
+        {
+          "policy": "diagnostic",
+          "scenario": "probe_drift",
+          "seed": 211,
+          "onset_h": 34,
+          "mu_h": 0.034519167802177,
+          "qg": 3.1926240399008594e-05,
+          "yield_million_cells": 507.4421790391725,
+          "viability": 0.8901094668802023,
+          "adverse_exposure_h": 15.0,
+          "medium_used_ml": 581.6200000000015,
+          "sample_used_ml": 6.599999999999999,
+          "latent_quality_decision": "hold",
+          "public_decision": "hold",
+          "balances": {
+            "glucose_g": 9.769962616701378e-15,
+            "lactate_g": 1.887379141862766e-15,
+            "viable_million": 2.8421709430404007e-13,
+            "dead_million": 0.0
+          }
+        }
+      ],
+      "replay_identical": true,
+      "dossier_sha256": "a27d520d1d9e4b703104100b7fabd76c1dd97cb3f5d448034d2d3a540cf3f72d"
+    },
+    {
+      "id": "B",
+      "scenario": "delivery_loss",
+      "seed": 223,
+      "model_yield_million": 588.5058901685884,
+      "rule_yield_million": 428.290029134152,
+      "model_media_ml": 771.4199999999995,
+      "model_adverse_h": 0.0,
+      "proposed_disposition": "accept",
+      "public_decision": "accept",
+      "latent_decision": "accept",
+      "baselines": [
+        {
+          "policy": "fixed",
+          "scenario": "delivery_loss",
+          "seed": 223,
+          "onset_h": 38,
+          "mu_h": 0.032656817338342074,
+          "qg": 2.9518410693915227e-05,
+          "yield_million_cells": 355.0430284635248,
+          "viability": 0.7731509015112218,
+          "adverse_exposure_h": 0.0,
+          "medium_used_ml": 197.2200000000023,
+          "sample_used_ml": 4.499999999999999,
+          "latent_quality_decision": "reject",
+          "public_decision": "reject",
+          "balances": {
+            "glucose_g": -9.658940314238862e-15,
+            "lactate_g": 3.3306690738754696e-16,
+            "viable_million": -5.115907697472721e-13,
+            "dead_million": 0.0
+          }
+        },
+        {
+          "policy": "feedback",
+          "scenario": "delivery_loss",
+          "seed": 223,
+          "onset_h": 38,
+          "mu_h": 0.032656817338342074,
+          "qg": 2.9518410693915227e-05,
+          "yield_million_cells": 428.290029134152,
+          "viability": 0.8622967150296751,
+          "adverse_exposure_h": 0.0,
+          "medium_used_ml": 332.77999999999867,
+          "sample_used_ml": 6.299999999999999,
+          "latent_quality_decision": "accept",
+          "public_decision": "accept",
+          "balances": {
+            "glucose_g": 8.104628079763643e-15,
+            "lactate_g": 1.7763568394002505e-15,
+            "viable_million": -5.684341886080801e-13,
+            "dead_million": 0.0
+          }
+        },
+        {
+          "policy": "diagnostic",
+          "scenario": "delivery_loss",
+          "seed": 223,
+          "onset_h": 38,
+          "mu_h": 0.032656817338342074,
+          "qg": 2.9518410693915227e-05,
+          "yield_million_cells": 428.290029134152,
+          "viability": 0.8622967150296751,
+          "adverse_exposure_h": 0.0,
+          "medium_used_ml": 332.77999999999867,
+          "sample_used_ml": 6.299999999999999,
+          "latent_quality_decision": "accept",
+          "public_decision": "accept",
+          "balances": {
+            "glucose_g": 8.104628079763643e-15,
+            "lactate_g": 1.7763568394002505e-15,
+            "viable_million": -5.684341886080801e-13,
+            "dead_million": 0.0
+          }
+        }
+      ],
+      "replay_identical": true,
+      "dossier_sha256": "7f54081821d62c3fb0dcd45f5c911900ac2423ca16e85f1fc83a5ec9bd13754b"
+    },
+    {
+      "id": "C",
+      "scenario": "nominal",
+      "seed": 227,
+      "model_yield_million": 585.9032427209687,
+      "rule_yield_million": 533.907223274352,
+      "model_media_ml": 795.6999999999998,
+      "model_adverse_h": 0.0,
+      "proposed_disposition": "accept",
+      "public_decision": "accept",
+      "latent_decision": "accept",
+      "baselines": [
+        {
+          "policy": "fixed",
+          "scenario": "nominal",
+          "seed": 227,
+          "onset_h": 42,
+          "mu_h": 0.03319246512110362,
+          "qg": 3.2528692481317545e-05,
+          "yield_million_cells": 425.4370259498364,
+          "viability": 0.8387728430714648,
+          "adverse_exposure_h": 0.0,
+          "medium_used_ml": 364.50000000000006,
+          "sample_used_ml": 4.499999999999999,
+          "latent_quality_decision": "reject",
+          "public_decision": "accept",
+          "balances": {
+            "glucose_g": 8.271161533457416e-15,
+            "lactate_g": -4.440892098500626e-16,
+            "viable_million": 7.389644451905042e-13,
+            "dead_million": 1.4210854715202004e-14
+          }
+        },
+        {
+          "policy": "feedback",
+          "scenario": "nominal",
+          "seed": 227,
+          "onset_h": 42,
+          "mu_h": 0.03319246512110362,
+          "qg": 3.2528692481317545e-05,
+          "yield_million_cells": 533.907223274352,
+          "viability": 0.9295681719565547,
+          "adverse_exposure_h": 0.0,
+          "medium_used_ml": 619.520000000001,
+          "sample_used_ml": 6.299999999999999,
+          "latent_quality_decision": "accept",
+          "public_decision": "accept",
+          "balances": {
+            "glucose_g": 8.43769498715119e-15,
+            "lactate_g": 0.0,
+            "viable_million": -4.547473508864641e-13,
+            "dead_million": -1.4210854715202004e-14
+          }
+        },
+        {
+          "policy": "diagnostic",
+          "scenario": "nominal",
+          "seed": 227,
+          "onset_h": 42,
+          "mu_h": 0.03319246512110362,
+          "qg": 3.2528692481317545e-05,
+          "yield_million_cells": 533.907223274352,
+          "viability": 0.9295681719565547,
+          "adverse_exposure_h": 0.0,
+          "medium_used_ml": 619.520000000001,
+          "sample_used_ml": 6.299999999999999,
+          "latent_quality_decision": "accept",
+          "public_decision": "accept",
+          "balances": {
+            "glucose_g": 8.43769498715119e-15,
+            "lactate_g": 0.0,
+            "viable_million": -4.547473508864641e-13,
+            "dead_million": -1.4210854715202004e-14
+          }
+        }
+      ],
+      "replay_identical": true,
+      "dossier_sha256": "3914b3dcd3996c72961c8645adfb8a8efc6b17dc2627fb8f31f7ec3a42e1f7b1"
+    },
+    {
+      "id": "D",
+      "scenario": "demand_shift",
+      "seed": 229,
+      "model_yield_million": 505.83923631481366,
+      "rule_yield_million": 468.9667745060715,
+      "model_media_ml": 895.7999999999998,
+      "model_adverse_h": 0.0,
+      "proposed_disposition": "accept",
+      "public_decision": "accept",
+      "latent_decision": "accept",
+      "baselines": [
+        {
+          "policy": "fixed",
+          "scenario": "demand_shift",
+          "seed": 229,
+          "onset_h": 42,
+          "mu_h": 0.034230448552329526,
+          "qg": 2.7801572257789228e-05,
+          "yield_million_cells": 300.3405609032677,
+          "viability": 0.6887404631298031,
+          "adverse_exposure_h": 0.0,
+          "medium_used_ml": 364.50000000000006,
+          "sample_used_ml": 4.499999999999999,
+          "latent_quality_decision": "reject",
+          "public_decision": "reject",
+          "balances": {
+            "glucose_g": 1.2462253451417382e-14,
+            "lactate_g": -2.220446049250313e-16,
+            "viable_million": -2.2737367544323206e-13,
+            "dead_million": 0.0
+          }
+        },
+        {
+          "policy": "feedback",
+          "scenario": "demand_shift",
+          "seed": 229,
+          "onset_h": 42,
+          "mu_h": 0.034230448552329526,
+          "qg": 2.7801572257789228e-05,
+          "yield_million_cells": 468.9667745060715,
+          "viability": 0.8825523620998157,
+          "adverse_exposure_h": 0.0,
+          "medium_used_ml": 784.2999999999998,
+          "sample_used_ml": 6.299999999999999,
+          "latent_quality_decision": "accept",
+          "public_decision": "accept",
+          "balances": {
+            "glucose_g": 3.5416114485542494e-14,
+            "lactate_g": -1.1102230246251565e-15,
+            "viable_million": -1.7053025658242404e-13,
+            "dead_million": 0.0
+          }
+        },
+        {
+          "policy": "diagnostic",
+          "scenario": "demand_shift",
+          "seed": 229,
+          "onset_h": 42,
+          "mu_h": 0.034230448552329526,
+          "qg": 2.7801572257789228e-05,
+          "yield_million_cells": 468.9667745060715,
+          "viability": 0.8825523620998157,
+          "adverse_exposure_h": 0.0,
+          "medium_used_ml": 784.2999999999998,
+          "sample_used_ml": 6.299999999999999,
+          "latent_quality_decision": "accept",
+          "public_decision": "accept",
+          "balances": {
+            "glucose_g": 3.5416114485542494e-14,
+            "lactate_g": -1.1102230246251565e-15,
+            "viable_million": -1.7053025658242404e-13,
+            "dead_million": 0.0
+          }
+        }
+      ],
+      "replay_identical": true,
+      "dossier_sha256": "77e44862c06c48f9a353ac18f32be2917adef2100d483ed2b50ce297277090f1"
+    }
+  ],
+  "limitations": [
+    "The developer-model knows the simulator design. Scenario mapping is masked until closeout; this is not independent blinding.",
+    "Four purposive synthetic cases; no statistical or biological generalization.",
+    "No independent autonomous LLM system was evaluated; these are actual choices made in the active Codex session.",
+    "The rule comparator operates every 2 h; the model chooses its decision intervals. All costs and sample timing are retained."
+  ],
+  "proposed_latent_agreement": 4,
+  "proposed_public_agreement": 4
+}

@@ -1,0 +1,31 @@
+{
+  "audit_date": "2026-10-24",
+  "data_status": "All campaign telemetry, faults and QC values in this app are synthetic. No raw manufacturing campaign dataset has been obtained or fitted.",
+  "sources": [
+    {
+      "title": "Manstein et al. (2021), High density bioprocessing of human pluripotent stem cells by metabolic control and in silico modeling",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8235132/",
+      "doi": "10.1002/sctm.20-0453",
+      "access": "Full article XML retrieved from the Europe PMC primary-literature mirror. A supplementary PDF link was identified; its detailed contents were not audited.",
+      "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8235132/fullTextXML",
+      "retrieval_sha256": "99428d23c023441a4ba03c447ac966e27039329b4e85e6f9004bf11b02186f02",
+      "finding": "The study connects growth, perfusion and metabolic control in stirred suspension culture. Its availability statement directs dataset requests to the authors. No synchronized sensor/action/QC export was obtained in this audit.",
+      "use": "Qualitative process structure only. The implemented equations, coefficients, campaign length and fault histories are illustrative and are not a reproduction of this study.",
+      "license": "Article CC BY-NC 4.0; no article or supplementary files redistributed."
+    },
+    {
+      "title": "ISSCR research standards, Section 2: Pluripotency and the Undifferentiated State",
+      "url": "https://www.isscr.org/basic-research-standards/pluripotency",
+      "access": "Official page inspected",
+      "finding": "Undifferentiated-state marker expression alone does not demonstrate functional pluripotency.",
+      "use": "The simulated phenotype result is labelled as an undifferentiated-state measurement."
+    },
+    {
+      "title": "FDA research overview: replication-associated DNA damage in iPSCs",
+      "url": "https://www.fda.gov/vaccines-blood-biologics/science-research-biologics/high-replication-rate-induced-pluripotent-stems-cells-appears-contribute-breaks-dna",
+      "access": "Official research overview inspected",
+      "finding": "The overview discusses replication-associated DNA damage as a separate concern in iPSC biology.",
+      "use": "Genomic evidence remains independent of metabolic recovery. This page does not define the app's invented QC thresholds."
+    }
+  ]
+}

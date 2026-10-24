@@ -1,0 +1,22 @@
+{
+  "id": "SIM-EXP-001", "version": "1.0.0", "stage": "iPSC expansion and banking",
+  "status": "Illustrative research simulation contract; not a manufacturing release specification",
+  "process_end_h": 120, "qc_checkpoint_h": 114, "closeout_h": 156,
+  "limits": {"perfusion_ml_h": [0, 12], "media_budget_ml": 2000, "sample_budget_ml": 18},
+  "evidence": {
+    "identity": {"pass": "match", "delay_h": 6, "volume_ml": 0.3},
+    "phenotype": {"min": 0.90, "delay_h": 8, "volume_ml": 0.3},
+    "viability": {"min": 0.85, "delay_h": 2, "volume_ml": 0.3},
+    "genomic_screen": {"pass": "no_flag", "delay_h": 24, "volume_ml": 0.3},
+    "microbial_screen": {"pass": "negative", "delay_h": 30, "volume_ml": 0.3}
+  },
+  "history": {"ph_low": 6.80, "do_low_pct": 20, "latent_exposure_hold_h": 4},
+  "notes": [
+    "Only valid results from this batch, using assay version 1.0, collected at or after the checkpoint count.",
+    "A valid failing checkpoint assay implies reject. Invalid or pending assays imply hold until replacement evidence arrives.",
+    "Observed process excursions and unresolved instrument discrepancies imply hold, even after recovery.",
+    "All required evidence passing, process complete, and no unresolved history issues implies accept in this simulation only.",
+    "Phenotype represents an undifferentiated-state measurement; it is not a functional pluripotency test.",
+    "Genomic and microbial results are simulated screen outcomes, not comprehensive safety evidence."
+  ]
+}

@@ -1,0 +1,59 @@
+[
+  {
+    "id": "A",
+    "commands": [
+      {
+        "type": "sample",
+        "panel": "metabolic"
+      }
+    ],
+    "advance_h": 2,
+    "evidence": [
+      "S-003",
+      "S-004"
+    ],
+    "rationale": "Online pH has recovered after calibration. Obtain independent sampled pH and viability to confirm recovery, while retaining the documented 48 h excursion and the batch hold."
+  },
+  {
+    "id": "B",
+    "commands": [
+      {
+        "type": "sample",
+        "panel": "metabolic"
+      }
+    ],
+    "advance_h": 2,
+    "evidence": [
+      "S-005"
+    ],
+    "rationale": "The post-service check confirms delivery equals the 6 mL/h command. Update glucose, lactate and cell density to choose the next control action from current biological evidence."
+  },
+  {
+    "id": "C",
+    "commands": [
+      {
+        "type": "sample",
+        "panel": "metabolic"
+      }
+    ],
+    "advance_h": 2,
+    "evidence": [
+      "S-003"
+    ],
+    "rationale": "Reassess the effect of increased perfusion after ten hours; no instrument fault is established."
+  },
+  {
+    "id": "D",
+    "commands": [
+      {
+        "type": "sample",
+        "panel": "metabolic"
+      }
+    ],
+    "advance_h": 2,
+    "evidence": [
+      "S-004"
+    ],
+    "rationale": "Delivery verification is normal. A fresh metabolic result can show whether demand remains elevated despite correct equipment delivery; avoid treating a lactate trend as differentiation."
+  }
+]

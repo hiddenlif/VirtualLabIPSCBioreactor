@@ -1,0 +1,76 @@
+[
+  {
+    "id": "A",
+    "commands": [
+      {
+        "type": "sample",
+        "panel": "metabolic"
+      },
+      {
+        "type": "sample",
+        "panel": "qc"
+      }
+    ],
+    "advance_h": 2,
+    "evidence": [
+      "S-004",
+      "S-007"
+    ],
+    "rationale": "Collect the full qualifying banking panel and a near-endpoint metabolic sample at 118 h. Final current quality is distinct from the earlier pH excursion; acceptance remains unsupported even if current assays pass."
+  },
+  {
+    "id": "B",
+    "commands": [
+      {
+        "type": "sample",
+        "panel": "metabolic"
+      },
+      {
+        "type": "sample",
+        "panel": "qc"
+      }
+    ],
+    "advance_h": 2,
+    "evidence": [
+      "S-005",
+      "S-008"
+    ],
+    "rationale": "Collect all required identity, phenotype, viability, genomic and microbial evidence close to the endpoint. Wait for actual results rather than treating requested assays as passing."
+  },
+  {
+    "id": "C",
+    "commands": [
+      {
+        "type": "sample",
+        "panel": "metabolic"
+      },
+      {
+        "type": "sample",
+        "panel": "qc"
+      }
+    ],
+    "advance_h": 2,
+    "evidence": [
+      "S-006"
+    ],
+    "rationale": "Obtain current metabolism and the complete stage-specific banking evidence at the qualified 118 h collection time. Do not infer genomic or microbial quality from normal telemetry."
+  },
+  {
+    "id": "D",
+    "commands": [
+      {
+        "type": "sample",
+        "panel": "metabolic"
+      },
+      {
+        "type": "sample",
+        "panel": "qc"
+      }
+    ],
+    "advance_h": 2,
+    "evidence": [
+      "S-007"
+    ],
+    "rationale": "Collect late evidence of viability and metabolism alongside the independent QC channels. Preserve the declining oxygen trajectory for final review; no assay request itself establishes a pass."
+  }
+]
