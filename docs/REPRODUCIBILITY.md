@@ -32,4 +32,6 @@ The dossier export contains the SOP, public observations, assay and action histo
 
 ## Provenance limits
 
-The scientific-source hashes freeze the implementation used by the reporting study. Documentation and frontend-only edits do not change that science manifest. Full project file checksums are recorded separately at delivery. Reproduction on a different Python/platform may produce tiny floating-point differences; these are distinguished from exact digest agreement and substantive metric disagreement.
+The scientific-source hashes freeze the implementation used by the original reporting study. The Ruff maintenance revision preserves those original reports and records an explicit original-to-current source hash mapping in `reports/ruff-cleanup-v1/source-revision.json`. Verification accepts the original implementation or that exact recorded revision; unrecorded source changes fail. The cleanup's tests and complete campaign/model-action replay are retained beside the mapping. This records maintenance provenance without rewriting the study's original source hashes.
+
+Documentation and frontend-only edits do not change that science manifest. Full project file checksums are recorded separately at delivery. Reproduction on a different Python/platform may produce tiny floating-point differences; these are distinguished from exact digest agreement and substantive metric disagreement.

@@ -1,0 +1,10 @@
+{
+  "command": [
+    "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+    "scripts/reproduce.py",
+    "--out",
+    "reports/ruff-cleanup-v1/reproduction"
+  ],
+  "exit_code": 0,
+  "created_at": "2026-10-24 16:15 PDT"
+}

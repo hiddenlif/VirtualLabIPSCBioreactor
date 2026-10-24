@@ -53,6 +53,16 @@ python3 scripts/reproduce.py --out reports/reproduction-check
 
 The reproduction command refuses an existing output directory. It reconstructs all comparator campaigns and replays the recorded model actions; it makes no new model calls. See [reproducibility details](docs/REPRODUCIBILITY.md) and the [completed verification record](docs/VERIFICATION.md).
 
+## Python code quality
+
+```sh
+python3 -m pip install -r requirements-dev.txt
+ruff check .
+ruff format --check .
+```
+
+Ruff is pinned to 0.17.2 and configured for Python 3.10+. The [cleanup verification](reports/ruff-cleanup-v1/README.md) records tests, source provenance and scientific replay results.
+
 ## Project contents
 
 | Location | Purpose |

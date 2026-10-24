@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "created_at": "2026-10-24 16:16 PDT",
+  "ruff_version": "0.17.2",
+  "lint_exit_code": 0,
+  "format_check_exit_code": 0,
+  "tests_passed": 16,
+  "original_retained_evidence_files_unchanged": 77,
+  "core_normalized_ast_equivalence": {
+    "ipsc_lab/__init__.py": true,
+    "ipsc_lab/engine.py": true,
+    "ipsc_lab/policies.py": true,
+    "ipsc_lab/server.py": true
+  },
+  "ast_check_scope": "Ignores imports and normalizes dict keyword construction / set generators. Import removal and ordering reviewed separately; this is a bounded syntax comparison, not proof of behavioral equivalence.",
+  "full_scientific_replay": "reports/ruff-cleanup-v1/reproduction/RESULT.json",
+  "replay_sha256": "47d4f59ed9bfbe2e810755b5477eb97bcbe00c703be8e087a93a13e751b03fba",
+  "scope": "Python maintenance in this repository only. Original scientific results and failure cases retained."
+}

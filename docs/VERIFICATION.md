@@ -1,5 +1,7 @@
 # Development verification
 
+The dated checks below describe the initial implementation. The later [Ruff maintenance record](../reports/ruff-cleanup-v1/README.md) adds clean lint/format checks, 16 passing tests, and a complete replay with all 126 comparator dossiers and four recorded pilot replays matching.
+
 Verified 2026-10-24 14:27 PDT · local release 0.1.0
 
 The first iPSC expansion-and-banking investigation is complete as a local research simulator. Its source, interface, executed comparisons, recorded model pilot, failure analysis and reproduction commands are retained. GitHub setup and publication remain deferred.

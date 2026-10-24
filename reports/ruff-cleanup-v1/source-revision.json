@@ -1,0 +1,23 @@
+{
+  "revision": "ruff-cleanup-v1",
+  "created_at": "2026-10-24 16:14 PDT",
+  "baseline_commit": "d2f0298207bed6024778eefa8d4ec84ab039f4e4",
+  "ruff_version": "0.17.2",
+  "scope": "Ruff formatting, import cleanup and literal comprehensions; scientific methods, parameters and original study artifacts preserved. Source verification accepts only this explicit hash mapping.",
+  "baseline_source_hashes": {
+    "config/sop.json": "1ace16689275a24eecaa7b1f4a51eb2c18411f72a4620eff460bf182f1371c59",
+    "ipsc_lab/__init__.py": "3c162bcb22f81a10386e74ac6565978a255057bffe7636a6b8cdb726447a9130",
+    "ipsc_lab/engine.py": "3658a9e84bc0606885990355ee2ccceb6ce59d242d5e31a8a068aa58c5418da3",
+    "ipsc_lab/policies.py": "c1471c4cfb2f0289514e61d7cf6f36104e032a039f80a6e2da5cf6e2d126b648",
+    "ipsc_lab/server.py": "c714d8cd4403f6510d25119ff2f6434772433de3bff62f26e7cb32a142358ba8",
+    "scripts/evaluate.py": "3a5f95968dc8233ab812d19132cc513fc4566027da3ae2f01e81a69b3cd16e7c"
+  },
+  "current_source_hashes": {
+    "config/sop.json": "1ace16689275a24eecaa7b1f4a51eb2c18411f72a4620eff460bf182f1371c59",
+    "ipsc_lab/__init__.py": "001286d5e75705f875f19c32ff034bcb07c0e7f5a93212977b5b34a791489970",
+    "ipsc_lab/engine.py": "5cbcfb366c04e788e5a25e1941b6d1fcb1658164a7eca01540d85a3e9956bd3e",
+    "ipsc_lab/policies.py": "70721b87f3dea1fc1d899f117b469700146d9c63ebdb7b6dd374531cc11ea559",
+    "ipsc_lab/server.py": "783d3082e0d81ce2379d5a345ef7670e8ebe517bc51cd91f6ed7e53e460bdc8c",
+    "scripts/evaluate.py": "fa67ab9921090025531470e3a87ff70fd6583c6a9975274cb0b97b0b30e75b6f"
+  }
+}

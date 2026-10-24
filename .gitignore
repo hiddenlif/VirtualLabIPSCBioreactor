@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 .DS_Store
 .venv/
+.ruff_cache/
 runs/model-pilot-v1/private/
 
 # Local credentials and environment overrides

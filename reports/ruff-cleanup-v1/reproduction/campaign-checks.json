@@ -1,0 +1,1010 @@
+[
+  {
+    "scenario": "nominal",
+    "seed": 101,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "nominal",
+    "seed": 101,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "nominal",
+    "seed": 101,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "nominal",
+    "seed": 107,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "nominal",
+    "seed": 107,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "nominal",
+    "seed": 107,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "nominal",
+    "seed": 113,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "nominal",
+    "seed": 113,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "nominal",
+    "seed": 113,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "nominal",
+    "seed": 127,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "nominal",
+    "seed": 127,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "nominal",
+    "seed": 127,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "nominal",
+    "seed": 131,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "nominal",
+    "seed": 131,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "nominal",
+    "seed": 131,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "nominal",
+    "seed": 139,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "nominal",
+    "seed": 139,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "nominal",
+    "seed": 139,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "probe_drift",
+    "seed": 101,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "probe_drift",
+    "seed": 101,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "probe_drift",
+    "seed": 101,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "probe_drift",
+    "seed": 107,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "probe_drift",
+    "seed": 107,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "probe_drift",
+    "seed": 107,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "probe_drift",
+    "seed": 113,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "probe_drift",
+    "seed": 113,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "probe_drift",
+    "seed": 113,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "probe_drift",
+    "seed": 127,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "probe_drift",
+    "seed": 127,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "probe_drift",
+    "seed": 127,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "probe_drift",
+    "seed": 131,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "probe_drift",
+    "seed": 131,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "probe_drift",
+    "seed": 131,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "probe_drift",
+    "seed": 139,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "probe_drift",
+    "seed": 139,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "probe_drift",
+    "seed": 139,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "delivery_loss",
+    "seed": 101,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "delivery_loss",
+    "seed": 101,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "delivery_loss",
+    "seed": 101,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "delivery_loss",
+    "seed": 107,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "delivery_loss",
+    "seed": 107,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "delivery_loss",
+    "seed": 107,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "delivery_loss",
+    "seed": 113,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "delivery_loss",
+    "seed": 113,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "delivery_loss",
+    "seed": 113,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "delivery_loss",
+    "seed": 127,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "delivery_loss",
+    "seed": 127,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "delivery_loss",
+    "seed": 127,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "delivery_loss",
+    "seed": 131,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "delivery_loss",
+    "seed": 131,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "delivery_loss",
+    "seed": 131,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "delivery_loss",
+    "seed": 139,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "delivery_loss",
+    "seed": 139,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "delivery_loss",
+    "seed": 139,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "demand_shift",
+    "seed": 101,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "demand_shift",
+    "seed": 101,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "demand_shift",
+    "seed": 101,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "demand_shift",
+    "seed": 107,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "demand_shift",
+    "seed": 107,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "demand_shift",
+    "seed": 107,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "demand_shift",
+    "seed": 113,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "demand_shift",
+    "seed": 113,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "demand_shift",
+    "seed": 113,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "demand_shift",
+    "seed": 127,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "demand_shift",
+    "seed": 127,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "demand_shift",
+    "seed": 127,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "demand_shift",
+    "seed": 131,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "demand_shift",
+    "seed": 131,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "demand_shift",
+    "seed": 131,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "demand_shift",
+    "seed": 139,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "demand_shift",
+    "seed": 139,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "demand_shift",
+    "seed": 139,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "invalid_sample",
+    "seed": 101,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "invalid_sample",
+    "seed": 101,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "invalid_sample",
+    "seed": 101,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "invalid_sample",
+    "seed": 107,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "invalid_sample",
+    "seed": 107,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "invalid_sample",
+    "seed": 107,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "invalid_sample",
+    "seed": 113,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "invalid_sample",
+    "seed": 113,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "invalid_sample",
+    "seed": 113,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "invalid_sample",
+    "seed": 127,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "invalid_sample",
+    "seed": 127,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "invalid_sample",
+    "seed": 127,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "invalid_sample",
+    "seed": 131,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "invalid_sample",
+    "seed": 131,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "invalid_sample",
+    "seed": 131,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "invalid_sample",
+    "seed": 139,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "invalid_sample",
+    "seed": 139,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "invalid_sample",
+    "seed": 139,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "genomic_flag",
+    "seed": 101,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "genomic_flag",
+    "seed": 101,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "genomic_flag",
+    "seed": 101,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "genomic_flag",
+    "seed": 107,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "genomic_flag",
+    "seed": 107,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "genomic_flag",
+    "seed": 107,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "genomic_flag",
+    "seed": 113,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "genomic_flag",
+    "seed": 113,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "genomic_flag",
+    "seed": 113,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "genomic_flag",
+    "seed": 127,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "genomic_flag",
+    "seed": 127,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "genomic_flag",
+    "seed": 127,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "genomic_flag",
+    "seed": 131,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "genomic_flag",
+    "seed": 131,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "genomic_flag",
+    "seed": 131,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "genomic_flag",
+    "seed": 139,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "genomic_flag",
+    "seed": 139,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "genomic_flag",
+    "seed": 139,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "combined",
+    "seed": 101,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "combined",
+    "seed": 101,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "combined",
+    "seed": 101,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "combined",
+    "seed": 107,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "combined",
+    "seed": 107,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "combined",
+    "seed": 107,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "combined",
+    "seed": 113,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "combined",
+    "seed": 113,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "combined",
+    "seed": 113,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "combined",
+    "seed": 127,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "combined",
+    "seed": 127,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "combined",
+    "seed": 127,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "combined",
+    "seed": 131,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "combined",
+    "seed": 131,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "combined",
+    "seed": 131,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "combined",
+    "seed": 139,
+    "policy": "fixed",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "combined",
+    "seed": 139,
+    "policy": "feedback",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  },
+  {
+    "scenario": "combined",
+    "seed": 139,
+    "policy": "diagnostic",
+    "numerically_equivalent": true,
+    "decisions_equal": true,
+    "dossier_exact": true
+  }
+]
