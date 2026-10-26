@@ -1,6 +1,6 @@
-# Culture Lab · iPSC bioprocess investigation
+# Virtual Lab: iPSC bioreactor
 
-A runnable virtual laboratory for an iPSC expansion-and-banking campaign. Investigate instrument discrepancies, choose measurements, change bounded perfusion settings, and assemble an evidence-linked simulated batch dossier.
+Culture Lab is a runnable virtual laboratory for an iPSC expansion-and-banking campaign. Investigate instrument discrepancies, choose measurements, change bounded perfusion settings, and assemble an evidence-linked simulated batch dossier.
 
 **Research status:** all operating histories, faults, and QC results are synthetic. The process model is documented and tested, but has not been calibrated to raw experimental campaign data. This is a research simulator, not an empirically validated digital twin or a real batch-release system.
 
@@ -18,8 +18,8 @@ The live app uses the shared dark-plum laboratory design, with a restrained eigh
 Requires Python 3.10 or newer and a modern browser. The application has no third-party Python packages, Node build step, model-service credentials, or external frontend dependencies.
 
 ```sh
-git clone https://github.com/hiddenlif/ipsc-bioreactor-lab.git
-cd ipsc-bioreactor-lab
+git clone https://github.com/hiddenlif/VirtualLabIPSCBioreactor.git
+cd VirtualLabIPSCBioreactor
 python3 -m ipsc_lab.server --port 8840
 ```
 
@@ -83,6 +83,6 @@ Ruff is pinned to 0.17.2 and configured for Python 3.10+. The [cleanup verificat
 | `reports/model-pilot-v1/` | Pilot dossiers, unmasked design and matched outcomes |
 | `docs/` | Model, source audit, investigation, reproduction and verification records |
 
-The completed development scope is this iPSC laboratory. The completed [spatial tumor laboratory](https://github.com/hiddenlif/spatial-tumor-lab) is maintained separately. The nanobody project is on hold.
+The companion [spatial tumor laboratory](https://github.com/hiddenlif/VirtualLabSpatialTumor) is maintained in its own repository.
 
 See the [public-release review](reports/public-release-review/README.md) for current checks. No project-code licence has been assigned.

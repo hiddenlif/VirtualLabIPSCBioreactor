@@ -39,7 +39,7 @@ The frozen study and SOP remain unchanged so the result is inspectable. A future
 
 ## Actual Codex pilot
 
-Four campaign families—routine, probe drift, delivery loss and demand shift—were assigned to masked episode labels and separate seeds before model decisions. Each started after the same 48 h routine warm-up. The primary Codex conversation made **44 actual decisions**, retained with rationales, evidence citations, observation digests and simulator outputs. No external model API was called by the recording script.
+Four campaign families (routine, probe drift, delivery loss and demand shift) were assigned to masked episode labels and separate seeds before model decisions. Each started after the same 48 h routine warm-up. The primary Codex conversation made **44 actual decisions**, retained with rationales, evidence citations, observation digests and simulator outputs. No external model API was called by the recording script.
 
 The developer-model knew the simulator design and the four possible families. The initial mapping was masked, but this was **not an independent blind trial**. The exact model identifier and reasoning setting were not supplied by the runtime. The first public input was read in full; later compact renderings are retained beside their complete available observations.
 

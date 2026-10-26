@@ -1,10 +1,11 @@
 {
   "command": [
-    "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+    "python3",
     "scripts/reproduce.py",
     "--out",
     "reports/ruff-cleanup-v1/reproduction"
   ],
   "exit_code": 0,
-  "created_at": "2026-10-24 16:15 PDT"
+  "created_at": "2026-10-24 16:15 PDT",
+  "path_note": "Absolute local paths replaced with repository-relative ones on 2026-10-26; the command and its result are unchanged."
 }
