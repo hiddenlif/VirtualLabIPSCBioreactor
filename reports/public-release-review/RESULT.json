@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "created_at": "2026-10-26 08:44 PDT",
+  "campaign_count": 126,
+  "numerically_equivalent": 126,
+  "decisions_equal": 126,
+  "dossiers_exact": 126,
+  "model_replays": [
+    {
+      "id": "A",
+      "observation_sequence_exact": true,
+      "dossier_exact": true
+    },
+    {
+      "id": "B",
+      "observation_sequence_exact": true,
+      "dossier_exact": true
+    },
+    {
+      "id": "C",
+      "observation_sequence_exact": true,
+      "dossier_exact": true
+    },
+    {
+      "id": "D",
+      "observation_sequence_exact": true,
+      "dossier_exact": true
+    }
+  ],
+  "new_model_calls": 0,
+  "scientific_source_hashes": {
+    "config/sop.json": "1ace16689275a24eecaa7b1f4a51eb2c18411f72a4620eff460bf182f1371c59",
+    "ipsc_lab/__init__.py": "001286d5e75705f875f19c32ff034bcb07c0e7f5a93212977b5b34a791489970",
+    "ipsc_lab/engine.py": "5cbcfb366c04e788e5a25e1941b6d1fcb1658164a7eca01540d85a3e9956bd3e",
+    "ipsc_lab/policies.py": "70721b87f3dea1fc1d899f117b469700146d9c63ebdb7b6dd374531cc11ea559",
+    "ipsc_lab/server.py": "783d3082e0d81ce2379d5a345ef7670e8ebe517bc51cd91f6ed7e53e460bdc8c",
+    "scripts/evaluate.py": "fa67ab9921090025531470e3a87ff70fd6583c6a9975274cb0b97b0b30e75b6f"
+  },
+  "scientific_source_revision": "ruff-cleanup-v1"
+}

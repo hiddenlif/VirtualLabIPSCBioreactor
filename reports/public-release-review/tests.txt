@@ -1,0 +1,21 @@
+test_faults_have_consequences_and_independent_checks (test_engine.SimulationTests.test_faults_have_consequences_and_independent_checks) ... ok
+test_idempotence_and_counterfactual_branch (test_engine.SimulationTests.test_idempotence_and_counterfactual_branch) ... ok
+test_invalid_actions_are_atomic (test_engine.SimulationTests.test_invalid_actions_are_atomic) ... ok
+test_mass_and_cell_accounting_across_sampling_and_faults (test_engine.SimulationTests.test_mass_and_cell_accounting_across_sampling_and_faults) ... ok
+test_passive_observation_and_public_boundary (test_engine.SimulationTests.test_passive_observation_and_public_boundary) ... ok
+test_reproducibility_and_time_step_convergence (test_engine.SimulationTests.test_reproducibility_and_time_step_convergence) ... ok
+test_result_collection_and_result_time_are_distinct (test_engine.SimulationTests.test_result_collection_and_result_time_are_distinct) ... ok
+test_stale_and_invalid_evidence_cannot_release (test_engine.SimulationTests.test_stale_and_invalid_evidence_cannot_release) ... ok
+test_valid_failure_and_history_survive_normal_endpoint (test_engine.SimulationTests.test_valid_failure_and_history_survive_normal_endpoint) ... ok
+test_branch_and_failed_action_preserve_parent (test_http.LocalApiTests.test_branch_and_failed_action_preserve_parent) ... ok
+test_cross_origin_and_uncredentialed_mutation_fail (test_http.LocalApiTests.test_cross_origin_and_uncredentialed_mutation_fail) ... ok
+test_malformed_commands_fail_without_state_change (test_http.LocalApiTests.test_malformed_commands_fail_without_state_change) ... ok
+test_public_api_and_export_agree (test_http.LocalApiTests.test_public_api_and_export_agree) ... ok
+test_recorded_cleanup_revision_is_accepted (test_source_binding.SourceBindingTests.test_recorded_cleanup_revision_is_accepted) ... ok
+test_unrecorded_source_edit_is_rejected (test_source_binding.SourceBindingTests.test_unrecorded_source_edit_is_rejected) ... ok
+test_unrelated_original_study_is_rejected (test_source_binding.SourceBindingTests.test_unrelated_original_study_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 3.543s
+
+OK

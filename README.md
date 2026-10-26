@@ -76,4 +76,6 @@ Ruff is pinned to 0.17.2 and configured for Python 3.10+. The [cleanup verificat
 | `reports/model-pilot-v1/` | Pilot dossiers, unmasked design and matched outcomes |
 | `docs/` | Model, source audit, investigation, reproduction and verification records |
 
-The completed development scope is this iPSC laboratory. The spatial tumor laboratory is a separate planned project. The nanobody project is on hold.
+The completed development scope is this iPSC laboratory. The completed [spatial tumor laboratory](https://github.com/hiddenlif/spatial-tumor-lab) is maintained separately. The nanobody project is on hold.
+
+See the [public-release review](reports/public-release-review/README.md) for current checks. No project-code licence has been assigned.
