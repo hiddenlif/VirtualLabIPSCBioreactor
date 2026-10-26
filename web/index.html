@@ -2,29 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#142d35">
+  <meta name="theme-color" content="#100e18">
   <title>Culture Lab · iPSC expansion & banking</title>
   <link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script>
-</head>
+<link rel="stylesheet" href="/lab-theme.css"></head>
 <body>
-  <aside class="rail">
-    <a class="brand" href="#campaign" aria-label="Culture Lab home"><span class="brand-icon">c<span>•</span></span><span>culture<span class="brand-sub">VIRTUAL LABORATORY</span></span></a>
-    <div class="rail-label">WORKSPACE</div>
-    <nav aria-label="Laboratory views">
-      <button class="nav active" data-view="campaign"><span>◉</span>Campaign</button>
-      <button class="nav" data-view="investigation"><span>⌕</span>Investigation</button>
-      <button class="nav" data-view="qc"><span>▤</span>Evidence & QC</button>
-      <button class="nav" data-view="study"><span>↗</span>Evaluation study</button>
-      <button class="nav" data-view="methods"><span>⊞</span>Methods & sources</button>
-    </nav>
-    <div class="rail-project"><div class="rail-label">INVESTIGATION 001</div><p>From observation<br>to justified action.</p><span>iPSC expansion & banking</span></div>
-    <div class="rail-bottom"><span class="live-dot"></span>Local research environment<small>SIMULATED DATA · v0.1.0</small></div>
-  </aside>
+  <aside class="rail"><nav aria-label="Laboratory views"><button class="nav" data-view="campaign" aria-label="Campaign" title="Campaign"><img src="/assets/icons/target.svg" alt=""><span>Campaign</span></button><button class="nav" data-view="investigation" aria-label="Investigate" title="Investigate"><img src="/assets/icons/activity.svg" alt=""><span>Investigate</span></button><button class="nav" data-view="qc" aria-label="Evidence" title="Evidence"><img src="/assets/icons/layers.svg" alt=""><span>Evidence</span></button><button class="nav" data-view="study" aria-label="Study" title="Study"><img src="/assets/icons/bar-chart-2.svg" alt=""><span>Study</span></button><button class="nav" data-view="methods" aria-label="Methods" title="Methods"><img src="/assets/icons/book-open.svg" alt=""><span>Methods</span></button></nav><span class="rail-bottom">LOCAL<br>LAB</span></aside>
   <div class="shell">
-    <header class="topbar"><div><span class="crumb">Scientific virtual labs</span><span class="slash">/</span><span>iPSC bioprocess</span></div><span class="mode-badge"><span></span>RESEARCH SIMULATION</span></header>
+    <header class="lab-header"><a class="lab-wordmark" href="#campaign">culture</a><span class="lab-divider">/</span><span class="lab-type">BIOPROCESS LAB</span><span class="lab-status">SYNTHETIC CAMPAIGN <span>/</span> RESEARCH WORKSPACE</span></header>
     <main>
-      <section class="page-heading"><div><p class="eyebrow">EXPANSION CAMPAIGN</p><h1 id="page-title">iPSC expansion & banking</h1><p id="page-subtitle">Investigate the process. Preserve the evidence.</p></div><div class="header-actions"><button class="button secondary" id="new-campaign">＋ New campaign</button><button class="button" id="export-dossier">↓ Export dossier</button></div></section>
-      <div class="session-line"><div><span class="label">BATCH</span><select id="session-select" aria-label="Select saved campaign"></select><span class="muted small" id="saved-label">Saved locally</span></div><div class="small muted">SIM-EXP-001 <span class="divider">|</span> SOP v1.0.0 <span class="divider">|</span> Scenario masked</div></div>
+      <section class="page-heading"><div><p class="eyebrow">EXPANSION CAMPAIGN</p><h1 id="page-title">iPSC expansion & banking</h1><p id="page-subtitle">Investigate the process. Preserve the evidence.</p></div></section>
+      <div class="session-line"><div><span class="label">BATCH</span><select id="session-select" aria-label="Select saved campaign"></select><span class="muted small" id="saved-label">Saved locally</span></div><div class="small muted">SIM-EXP-001 <span class="divider">|</span> SOP v1.0.0 <span class="divider">|</span> Scenario masked</div><div class="header-actions"><button class="button secondary" id="new-campaign">＋ New campaign</button><button class="button" id="export-dossier">↓ Export dossier</button></div></div>
       <section class="decision-strip" id="decision-strip" aria-live="polite"></section>
       <div id="view-content"><div class="loading">Preparing your laboratory…</div></div>
       <footer>All process streams, sampled results, and QC outcomes are simulated. <button data-go="methods">View assumptions and provenance ↗</button></footer>

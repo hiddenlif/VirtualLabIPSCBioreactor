@@ -4,7 +4,14 @@ A runnable virtual laboratory for an iPSC expansion-and-banking campaign. Invest
 
 **Research status:** all operating histories, faults, and QC results are synthetic. The process model is documented and tested, but has not been calibrated to raw experimental campaign data. This is a research simulator, not an empirically validated digital twin or a real batch-release system.
 
-![Campaign workspace](reports/campaign-screen.png)
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="reports/campaign-screen-v2.png">
+  <img src="reports/campaign-preview-v2.gif" alt="Culture Lab campaign workspace with gently animated blue liquid in an illustrative bioreactor">
+</picture>
+
+[Still preview](reports/campaign-screen-v2.png) · [Interface design and verification](design-qa.md)
+
+The live app uses the shared dark-plum laboratory design, with a restrained eight-second liquid animation. **Pause motion** stops it; the app also respects reduced-motion preferences. The vessel and its motion are illustrative and do not model fluid dynamics or advance campaign time.
 
 ## Run locally
 
